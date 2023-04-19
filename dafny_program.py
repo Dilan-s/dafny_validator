@@ -26,7 +26,7 @@ class CollectionType(Type):
         self.inner_types.append(type)
 
     def isPrintable(self):
-        if self.name == "set" or self.name == "multiset" or self.name == "array":
+        if self.name == "set" or self.name == "multiset" or self.name == "array" or self.name == "map":
             return False
         if len(self.inner_types) == 0:
             return False

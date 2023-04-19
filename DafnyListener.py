@@ -287,6 +287,15 @@ class DafnyListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by DafnyParser#mapLiteral.
+    def enterMapLiteral(self, ctx:DafnyParser.MapLiteralContext):
+        pass
+
+    # Exit a parse tree produced by DafnyParser#mapLiteral.
+    def exitMapLiteral(self, ctx:DafnyParser.MapLiteralContext):
+        pass
+
+
     # Enter a parse tree produced by DafnyParser#binaryOperator.
     def enterBinaryOperator(self, ctx:DafnyParser.BinaryOperatorContext):
         pass
@@ -386,12 +395,12 @@ class DafnyListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by DafnyParser#reassignSeq.
-    def enterReassignSeq(self, ctx:DafnyParser.ReassignSeqContext):
+    # Enter a parse tree produced by DafnyParser#update.
+    def enterUpdate(self, ctx:DafnyParser.UpdateContext):
         pass
 
-    # Exit a parse tree produced by DafnyParser#reassignSeq.
-    def exitReassignSeq(self, ctx:DafnyParser.ReassignSeqContext):
+    # Exit a parse tree produced by DafnyParser#update.
+    def exitUpdate(self, ctx:DafnyParser.UpdateContext):
         pass
 
 

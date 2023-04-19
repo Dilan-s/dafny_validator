@@ -7,191 +7,205 @@ import sys
 
 def serializedATN():
     with StringIO() as buf:
-        buf.write("\3\u608b\ua72a\u8133\ub9ed\u417c\u3be7\u7786\u5964\3A")
-        buf.write("\u0199\4\2\t\2\4\3\t\3\4\4\t\4\4\5\t\5\4\6\t\6\4\7\t\7")
+        buf.write("\3\u608b\ua72a\u8133\ub9ed\u417c\u3be7\u7786\u5964\3F")
+        buf.write("\u01b4\4\2\t\2\4\3\t\3\4\4\t\4\4\5\t\5\4\6\t\6\4\7\t\7")
         buf.write("\4\b\t\b\4\t\t\t\4\n\t\n\4\13\t\13\4\f\t\f\4\r\t\r\4\16")
         buf.write("\t\16\4\17\t\17\4\20\t\20\4\21\t\21\4\22\t\22\4\23\t\23")
         buf.write("\4\24\t\24\4\25\t\25\4\26\t\26\4\27\t\27\4\30\t\30\4\31")
         buf.write("\t\31\4\32\t\32\4\33\t\33\4\34\t\34\4\35\t\35\4\36\t\36")
         buf.write("\4\37\t\37\4 \t \4!\t!\4\"\t\"\4#\t#\4$\t$\4%\t%\4&\t")
-        buf.write("&\4\'\t\'\4(\t(\4)\t)\4*\t*\4+\t+\4,\t,\4-\t-\4.\t.\3")
-        buf.write("\2\3\2\3\3\7\3`\n\3\f\3\16\3c\13\3\3\3\3\3\7\3g\n\3\f")
-        buf.write("\3\16\3j\13\3\3\4\3\4\3\4\3\4\3\4\3\4\3\4\3\4\3\4\7\4")
-        buf.write("u\n\4\f\4\16\4x\13\4\3\4\3\4\3\5\3\5\3\5\3\5\5\5\u0080")
-        buf.write("\n\5\3\5\3\5\3\5\3\5\5\5\u0086\n\5\3\5\5\5\u0089\n\5\3")
-        buf.write("\5\3\5\7\5\u008d\n\5\f\5\16\5\u0090\13\5\3\5\3\5\3\6\3")
-        buf.write("\6\3\6\3\6\3\6\3\6\5\6\u009a\n\6\5\6\u009c\n\6\3\7\3\7")
-        buf.write("\3\7\7\7\u00a1\n\7\f\7\16\7\u00a4\13\7\3\b\3\b\3\b\7\b")
-        buf.write("\u00a9\n\b\f\b\16\b\u00ac\13\b\3\t\3\t\3\t\5\t\u00b1\n")
-        buf.write("\t\3\n\3\n\3\n\5\n\u00b6\n\n\3\13\3\13\3\13\7\13\u00bb")
-        buf.write("\n\13\f\13\16\13\u00be\13\13\3\f\3\f\3\r\3\r\3\16\3\16")
-        buf.write("\3\16\3\16\5\16\u00c8\n\16\3\17\3\17\3\17\3\17\3\20\3")
-        buf.write("\20\5\20\u00d0\n\20\3\20\3\20\3\21\3\21\3\21\3\21\7\21")
-        buf.write("\u00d8\n\21\f\21\16\21\u00db\13\21\3\21\3\21\3\21\3\21")
-        buf.write("\7\21\u00e1\n\21\f\21\16\21\u00e4\13\21\3\21\5\21\u00e7")
-        buf.write("\n\21\3\22\5\22\u00ea\n\22\3\22\3\22\3\22\3\22\3\22\3")
-        buf.write("\22\3\23\3\23\3\23\7\23\u00f5\n\23\f\23\16\23\u00f8\13")
-        buf.write("\23\3\24\3\24\3\24\3\24\3\25\3\25\3\25\7\25\u0101\n\25")
-        buf.write("\f\25\16\25\u0104\13\25\3\26\3\26\3\26\3\26\3\26\3\26")
+        buf.write("&\4\'\t\'\4(\t(\4)\t)\4*\t*\4+\t+\4,\t,\4-\t-\4.\t.\4")
+        buf.write("/\t/\3\2\3\2\3\3\7\3b\n\3\f\3\16\3e\13\3\3\3\3\3\7\3i")
+        buf.write("\n\3\f\3\16\3l\13\3\3\4\3\4\3\4\3\4\3\4\3\4\3\4\3\4\3")
+        buf.write("\4\7\4w\n\4\f\4\16\4z\13\4\3\4\3\4\3\5\3\5\3\5\3\5\5\5")
+        buf.write("\u0082\n\5\3\5\3\5\3\5\3\5\5\5\u0088\n\5\3\5\5\5\u008b")
+        buf.write("\n\5\3\5\3\5\7\5\u008f\n\5\f\5\16\5\u0092\13\5\3\5\3\5")
+        buf.write("\3\6\3\6\3\6\3\6\3\6\3\6\5\6\u009c\n\6\5\6\u009e\n\6\3")
+        buf.write("\7\3\7\3\7\7\7\u00a3\n\7\f\7\16\7\u00a6\13\7\3\b\3\b\3")
+        buf.write("\b\7\b\u00ab\n\b\f\b\16\b\u00ae\13\b\3\t\3\t\3\t\5\t\u00b3")
+        buf.write("\n\t\3\n\3\n\3\n\5\n\u00b8\n\n\3\13\3\13\3\13\7\13\u00bd")
+        buf.write("\n\13\f\13\16\13\u00c0\13\13\3\f\3\f\3\r\3\r\3\16\3\16")
+        buf.write("\3\16\3\16\5\16\u00ca\n\16\3\17\3\17\3\17\3\17\3\20\3")
+        buf.write("\20\5\20\u00d2\n\20\3\20\3\20\3\21\3\21\3\21\3\21\7\21")
+        buf.write("\u00da\n\21\f\21\16\21\u00dd\13\21\3\21\3\21\3\21\3\21")
+        buf.write("\7\21\u00e3\n\21\f\21\16\21\u00e6\13\21\3\21\5\21\u00e9")
+        buf.write("\n\21\3\22\5\22\u00ec\n\22\3\22\3\22\3\22\3\22\3\22\3")
+        buf.write("\22\3\23\3\23\3\23\7\23\u00f7\n\23\f\23\16\23\u00fa\13")
+        buf.write("\23\3\24\3\24\3\24\3\24\3\25\3\25\3\25\7\25\u0103\n\25")
+        buf.write("\f\25\16\25\u0106\13\25\3\26\3\26\3\26\3\26\3\26\3\26")
         buf.write("\3\26\3\26\3\26\3\26\3\26\3\26\3\26\3\26\3\26\3\26\5\26")
-        buf.write("\u0116\n\26\3\26\3\26\3\26\3\26\3\26\3\26\3\26\3\26\3")
-        buf.write("\26\3\26\7\26\u0122\n\26\f\26\16\26\u0125\13\26\3\27\3")
-        buf.write("\27\3\27\3\27\3\27\3\27\3\27\3\27\3\27\5\27\u0130\n\27")
-        buf.write("\3\30\3\30\3\31\3\31\3\32\3\32\3\33\3\33\3\34\3\34\3\34")
-        buf.write("\3\34\3\34\3\34\5\34\u0140\n\34\3\34\3\34\3\35\3\35\5")
-        buf.write("\35\u0146\n\35\3\35\3\35\3\36\3\36\5\36\u014c\n\36\3\36")
-        buf.write("\3\36\3\37\3\37\3\37\3\37\3\37\3\37\3\37\5\37\u0157\n")
-        buf.write("\37\3\37\5\37\u015a\n\37\3 \3 \3!\3!\3!\3!\3!\3!\5!\u0164")
-        buf.write("\n!\3\"\3\"\3#\3#\3$\3$\3%\3%\3&\3&\3\'\3\'\3(\3(\3)\3")
-        buf.write(")\3)\5)\u0177\n)\3)\3)\3*\3*\3*\3*\3*\3*\3*\3+\3+\3+\3")
-        buf.write("+\3,\3,\3,\3,\3,\3,\3,\3-\3-\5-\u018f\n-\3-\3-\5-\u0193")
-        buf.write("\n-\3-\3-\3.\3.\3.\2\3*/\2\4\6\b\n\f\16\20\22\24\26\30")
-        buf.write("\32\34\36 \"$&(*,.\60\62\64\668:<>@BDFHJLNPRTVXZ\2\13")
-        buf.write("\3\2\t\r\3\2\16\21\3\2\32\33\3\2\34\35\4\2\27\30 &\3\2")
-        buf.write("\36\37\3\2\')\4\2\36\36**\3\289\2\u01a2\2\\\3\2\2\2\4")
-        buf.write("a\3\2\2\2\6k\3\2\2\2\b{\3\2\2\2\n\u009b\3\2\2\2\f\u009d")
-        buf.write("\3\2\2\2\16\u00a5\3\2\2\2\20\u00ad\3\2\2\2\22\u00b2\3")
-        buf.write("\2\2\2\24\u00b7\3\2\2\2\26\u00bf\3\2\2\2\30\u00c1\3\2")
-        buf.write("\2\2\32\u00c7\3\2\2\2\34\u00c9\3\2\2\2\36\u00cd\3\2\2")
-        buf.write("\2 \u00d3\3\2\2\2\"\u00e9\3\2\2\2$\u00f1\3\2\2\2&\u00f9")
-        buf.write("\3\2\2\2(\u00fd\3\2\2\2*\u0115\3\2\2\2,\u012f\3\2\2\2")
-        buf.write(".\u0131\3\2\2\2\60\u0133\3\2\2\2\62\u0135\3\2\2\2\64\u0137")
-        buf.write("\3\2\2\2\66\u0139\3\2\2\28\u0143\3\2\2\2:\u0149\3\2\2")
-        buf.write("\2<\u014f\3\2\2\2>\u015b\3\2\2\2@\u0163\3\2\2\2B\u0165")
-        buf.write("\3\2\2\2D\u0167\3\2\2\2F\u0169\3\2\2\2H\u016b\3\2\2\2")
-        buf.write("J\u016d\3\2\2\2L\u016f\3\2\2\2N\u0171\3\2\2\2P\u0173\3")
-        buf.write("\2\2\2R\u017a\3\2\2\2T\u0181\3\2\2\2V\u0185\3\2\2\2X\u018c")
-        buf.write("\3\2\2\2Z\u0196\3\2\2\2\\]\5\4\3\2]\3\3\2\2\2^`\5\b\5")
-        buf.write("\2_^\3\2\2\2`c\3\2\2\2a_\3\2\2\2ab\3\2\2\2bd\3\2\2\2c")
-        buf.write("a\3\2\2\2dh\5\6\4\2eg\5\b\5\2fe\3\2\2\2gj\3\2\2\2hf\3")
-        buf.write("\2\2\2hi\3\2\2\2i\5\3\2\2\2jh\3\2\2\2kl\7\3\2\2lm\7\4")
-        buf.write("\2\2mn\7\5\2\2no\7\6\2\2op\7\7\2\2pq\7\5\2\2qr\7\6\2\2")
-        buf.write("rv\7\23\2\2su\5\32\16\2ts\3\2\2\2ux\3\2\2\2vt\3\2\2\2")
-        buf.write("vw\3\2\2\2wy\3\2\2\2xv\3\2\2\2yz\7\24\2\2z\7\3\2\2\2{")
-        buf.write("|\7\3\2\2|}\7;\2\2}\177\7\5\2\2~\u0080\5\f\7\2\177~\3")
-        buf.write("\2\2\2\177\u0080\3\2\2\2\u0080\u0081\3\2\2\2\u0081\u0088")
-        buf.write("\7\6\2\2\u0082\u0083\7\7\2\2\u0083\u0085\7\5\2\2\u0084")
-        buf.write("\u0086\5\16\b\2\u0085\u0084\3\2\2\2\u0085\u0086\3\2\2")
-        buf.write("\2\u0086\u0087\3\2\2\2\u0087\u0089\7\6\2\2\u0088\u0082")
-        buf.write("\3\2\2\2\u0088\u0089\3\2\2\2\u0089\u008a\3\2\2\2\u008a")
-        buf.write("\u008e\7\23\2\2\u008b\u008d\5\32\16\2\u008c\u008b\3\2")
-        buf.write("\2\2\u008d\u0090\3\2\2\2\u008e\u008c\3\2\2\2\u008e\u008f")
-        buf.write("\3\2\2\2\u008f\u0091\3\2\2\2\u0090\u008e\3\2\2\2\u0091")
-        buf.write("\u0092\7\24\2\2\u0092\t\3\2\2\2\u0093\u009c\5\26\f\2\u0094")
-        buf.write("\u0099\5\30\r\2\u0095\u0096\7\27\2\2\u0096\u0097\5\24")
-        buf.write("\13\2\u0097\u0098\7\30\2\2\u0098\u009a\3\2\2\2\u0099\u0095")
-        buf.write("\3\2\2\2\u0099\u009a\3\2\2\2\u009a\u009c\3\2\2\2\u009b")
-        buf.write("\u0093\3\2\2\2\u009b\u0094\3\2\2\2\u009c\13\3\2\2\2\u009d")
-        buf.write("\u00a2\5\20\t\2\u009e\u009f\7-\2\2\u009f\u00a1\5\20\t")
-        buf.write("\2\u00a0\u009e\3\2\2\2\u00a1\u00a4\3\2\2\2\u00a2\u00a0")
-        buf.write("\3\2\2\2\u00a2\u00a3\3\2\2\2\u00a3\r\3\2\2\2\u00a4\u00a2")
-        buf.write("\3\2\2\2\u00a5\u00aa\5\22\n\2\u00a6\u00a7\7-\2\2\u00a7")
-        buf.write("\u00a9\5\22\n\2\u00a8\u00a6\3\2\2\2\u00a9\u00ac\3\2\2")
-        buf.write("\2\u00aa\u00a8\3\2\2\2\u00aa\u00ab\3\2\2\2\u00ab\17\3")
-        buf.write("\2\2\2\u00ac\u00aa\3\2\2\2\u00ad\u00b0\78\2\2\u00ae\u00af")
-        buf.write("\7.\2\2\u00af\u00b1\5\n\6\2\u00b0\u00ae\3\2\2\2\u00b0")
-        buf.write("\u00b1\3\2\2\2\u00b1\21\3\2\2\2\u00b2\u00b5\7:\2\2\u00b3")
-        buf.write("\u00b4\7.\2\2\u00b4\u00b6\5\n\6\2\u00b5\u00b3\3\2\2\2")
-        buf.write("\u00b5\u00b6\3\2\2\2\u00b6\23\3\2\2\2\u00b7\u00bc\5\n")
-        buf.write("\6\2\u00b8\u00b9\7-\2\2\u00b9\u00bb\5\n\6\2\u00ba\u00b8")
-        buf.write("\3\2\2\2\u00bb\u00be\3\2\2\2\u00bc\u00ba\3\2\2\2\u00bc")
-        buf.write("\u00bd\3\2\2\2\u00bd\25\3\2\2\2\u00be\u00bc\3\2\2\2\u00bf")
-        buf.write("\u00c0\t\2\2\2\u00c0\27\3\2\2\2\u00c1\u00c2\t\3\2\2\u00c2")
-        buf.write("\31\3\2\2\2\u00c3\u00c8\5\34\17\2\u00c4\u00c8\5 \21\2")
-        buf.write("\u00c5\u00c8\5\36\20\2\u00c6\u00c8\5\"\22\2\u00c7\u00c3")
-        buf.write("\3\2\2\2\u00c7\u00c4\3\2\2\2\u00c7\u00c5\3\2\2\2\u00c7")
-        buf.write("\u00c6\3\2\2\2\u00c8\33\3\2\2\2\u00c9\u00ca\7\66\2\2\u00ca")
-        buf.write("\u00cb\5(\25\2\u00cb\u00cc\7\62\2\2\u00cc\35\3\2\2\2\u00cd")
-        buf.write("\u00cf\7\b\2\2\u00ce\u00d0\5(\25\2\u00cf\u00ce\3\2\2\2")
-        buf.write("\u00cf\u00d0\3\2\2\2\u00d0\u00d1\3\2\2\2\u00d1\u00d2\7")
-        buf.write("\62\2\2\u00d2\37\3\2\2\2\u00d3\u00d4\7/\2\2\u00d4\u00d5")
-        buf.write("\5*\26\2\u00d5\u00d9\7\23\2\2\u00d6\u00d8\5\32\16\2\u00d7")
-        buf.write("\u00d6\3\2\2\2\u00d8\u00db\3\2\2\2\u00d9\u00d7\3\2\2\2")
-        buf.write("\u00d9\u00da\3\2\2\2\u00da\u00dc\3\2\2\2\u00db\u00d9\3")
-        buf.write("\2\2\2\u00dc\u00e6\7\24\2\2\u00dd\u00de\7\61\2\2\u00de")
-        buf.write("\u00e2\7\23\2\2\u00df\u00e1\5\32\16\2\u00e0\u00df\3\2")
-        buf.write("\2\2\u00e1\u00e4\3\2\2\2\u00e2\u00e0\3\2\2\2\u00e2\u00e3")
-        buf.write("\3\2\2\2\u00e3\u00e5\3\2\2\2\u00e4\u00e2\3\2\2\2\u00e5")
-        buf.write("\u00e7\7\24\2\2\u00e6\u00dd\3\2\2\2\u00e6\u00e7\3\2\2")
-        buf.write("\2\u00e7!\3\2\2\2\u00e8\u00ea\7\22\2\2\u00e9\u00e8\3\2")
-        buf.write("\2\2\u00e9\u00ea\3\2\2\2\u00ea\u00eb\3\2\2\2\u00eb\u00ec")
-        buf.write("\5$\23\2\u00ec\u00ed\7.\2\2\u00ed\u00ee\7\25\2\2\u00ee")
-        buf.write("\u00ef\5(\25\2\u00ef\u00f0\7\62\2\2\u00f0#\3\2\2\2\u00f1")
-        buf.write("\u00f6\5&\24\2\u00f2\u00f3\7-\2\2\u00f3\u00f5\5&\24\2")
-        buf.write("\u00f4\u00f2\3\2\2\2\u00f5\u00f8\3\2\2\2\u00f6\u00f4\3")
-        buf.write("\2\2\2\u00f6\u00f7\3\2\2\2\u00f7%\3\2\2\2\u00f8\u00f6")
-        buf.write("\3\2\2\2\u00f9\u00fa\5Z.\2\u00fa\u00fb\7.\2\2\u00fb\u00fc")
-        buf.write("\5\n\6\2\u00fc\'\3\2\2\2\u00fd\u0102\5*\26\2\u00fe\u00ff")
-        buf.write("\7-\2\2\u00ff\u0101\5*\26\2\u0100\u00fe\3\2\2\2\u0101")
-        buf.write("\u0104\3\2\2\2\u0102\u0100\3\2\2\2\u0102\u0103\3\2\2\2")
-        buf.write("\u0103)\3\2\2\2\u0104\u0102\3\2\2\2\u0105\u0106\b\26\1")
-        buf.write("\2\u0106\u0116\5,\27\2\u0107\u0108\5N(\2\u0108\u0109\5")
-        buf.write("*\26\13\u0109\u0116\3\2\2\2\u010a\u010b\7\26\2\2\u010b")
-        buf.write("\u010c\5*\26\2\u010c\u010d\7\26\2\2\u010d\u0116\3\2\2")
-        buf.write("\2\u010e\u0116\5P)\2\u010f\u0116\5R*\2\u0110\u0116\5Z")
-        buf.write(".\2\u0111\u0112\7\5\2\2\u0112\u0113\5*\26\2\u0113\u0114")
-        buf.write("\7\6\2\2\u0114\u0116\3\2\2\2\u0115\u0105\3\2\2\2\u0115")
-        buf.write("\u0107\3\2\2\2\u0115\u010a\3\2\2\2\u0115\u010e\3\2\2\2")
-        buf.write("\u0115\u010f\3\2\2\2\u0115\u0110\3\2\2\2\u0115\u0111\3")
-        buf.write("\2\2\2\u0116\u0123\3\2\2\2\u0117\u0118\f\f\2\2\u0118\u0119")
-        buf.write("\5@!\2\u0119\u011a\5*\26\r\u011a\u0122\3\2\2\2\u011b\u011c")
-        buf.write("\f\7\2\2\u011c\u0122\5T+\2\u011d\u011e\f\6\2\2\u011e\u0122")
-        buf.write("\5V,\2\u011f\u0120\f\5\2\2\u0120\u0122\5X-\2\u0121\u0117")
-        buf.write("\3\2\2\2\u0121\u011b\3\2\2\2\u0121\u011d\3\2\2\2\u0121")
-        buf.write("\u011f\3\2\2\2\u0122\u0125\3\2\2\2\u0123\u0121\3\2\2\2")
-        buf.write("\u0123\u0124\3\2\2\2\u0124+\3\2\2\2\u0125\u0123\3\2\2")
-        buf.write("\2\u0126\u0130\5.\30\2\u0127\u0130\5\60\31\2\u0128\u0130")
-        buf.write("\5\62\32\2\u0129\u0130\5\64\33\2\u012a\u0130\5\66\34\2")
-        buf.write("\u012b\u0130\58\35\2\u012c\u0130\5:\36\2\u012d\u0130\5")
-        buf.write("<\37\2\u012e\u0130\5> \2\u012f\u0126\3\2\2\2\u012f\u0127")
-        buf.write("\3\2\2\2\u012f\u0128\3\2\2\2\u012f\u0129\3\2\2\2\u012f")
-        buf.write("\u012a\3\2\2\2\u012f\u012b\3\2\2\2\u012f\u012c\3\2\2\2")
-        buf.write("\u012f\u012d\3\2\2\2\u012f\u012e\3\2\2\2\u0130-\3\2\2")
-        buf.write("\2\u0131\u0132\7<\2\2\u0132/\3\2\2\2\u0133\u0134\7>\2")
-        buf.write("\2\u0134\61\3\2\2\2\u0135\u0136\7\67\2\2\u0136\63\3\2")
-        buf.write("\2\2\u0137\u0138\7=\2\2\u0138\65\3\2\2\2\u0139\u013a\7")
-        buf.write("\65\2\2\u013a\u013b\5\n\6\2\u013b\u013c\7+\2\2\u013c\u013d")
-        buf.write("\7,\2\2\u013d\u013f\7+\2\2\u013e\u0140\5(\25\2\u013f\u013e")
-        buf.write("\3\2\2\2\u013f\u0140\3\2\2\2\u0140\u0141\3\2\2\2\u0141")
-        buf.write("\u0142\7,\2\2\u0142\67\3\2\2\2\u0143\u0145\7\23\2\2\u0144")
+        buf.write("\u0118\n\26\3\26\3\26\3\26\3\26\3\26\3\26\3\26\3\26\3")
+        buf.write("\26\3\26\3\26\3\26\3\26\7\26\u0127\n\26\f\26\16\26\u012a")
+        buf.write("\13\26\3\27\3\27\3\27\3\27\3\27\3\27\3\27\3\27\3\27\3")
+        buf.write("\27\5\27\u0136\n\27\3\30\3\30\3\31\3\31\3\32\3\32\3\33")
+        buf.write("\3\33\3\34\3\34\3\34\3\34\3\34\3\34\5\34\u0146\n\34\3")
+        buf.write("\34\3\34\3\35\3\35\5\35\u014c\n\35\3\35\3\35\3\36\3\36")
+        buf.write("\5\36\u0152\n\36\3\36\3\36\3\37\3\37\3\37\3\37\3\37\3")
+        buf.write("\37\3\37\5\37\u015d\n\37\3\37\5\37\u0160\n\37\3 \3 \3")
+        buf.write("!\3!\3!\3!\3!\3!\3!\3!\3!\3!\3!\3!\7!\u0170\n!\f!\16!")
+        buf.write("\u0173\13!\5!\u0175\n!\3!\3!\3\"\3\"\3\"\3\"\3\"\3\"\5")
+        buf.write("\"\u017f\n\"\3#\3#\3$\3$\3%\3%\3&\3&\3\'\3\'\3(\3(\3)")
+        buf.write("\3)\3*\3*\3*\5*\u0192\n*\3*\3*\3+\3+\3+\3+\3+\3+\3+\3")
+        buf.write(",\3,\3,\3,\3-\3-\3-\3-\3-\3-\3-\3.\3.\5.\u01aa\n.\3.\3")
+        buf.write(".\5.\u01ae\n.\3.\3.\3/\3/\3/\2\3*\60\2\4\6\b\n\f\16\20")
+        buf.write("\22\24\26\30\32\34\36 \"$&(*,.\60\62\64\668:<>@BDFHJL")
+        buf.write("NPRTVXZ\\\2\f\3\2\t\r\3\2\16\22\3\2\23\25\3\2\36\37\3")
+        buf.write("\2 !\4\2\33\34$*\3\2\"#\3\2+-\4\2\"\"..\3\2<=\2\u01c0")
+        buf.write("\2^\3\2\2\2\4c\3\2\2\2\6m\3\2\2\2\b}\3\2\2\2\n\u009d\3")
+        buf.write("\2\2\2\f\u009f\3\2\2\2\16\u00a7\3\2\2\2\20\u00af\3\2\2")
+        buf.write("\2\22\u00b4\3\2\2\2\24\u00b9\3\2\2\2\26\u00c1\3\2\2\2")
+        buf.write("\30\u00c3\3\2\2\2\32\u00c9\3\2\2\2\34\u00cb\3\2\2\2\36")
+        buf.write("\u00cf\3\2\2\2 \u00d5\3\2\2\2\"\u00eb\3\2\2\2$\u00f3\3")
+        buf.write("\2\2\2&\u00fb\3\2\2\2(\u00ff\3\2\2\2*\u0117\3\2\2\2,\u0135")
+        buf.write("\3\2\2\2.\u0137\3\2\2\2\60\u0139\3\2\2\2\62\u013b\3\2")
+        buf.write("\2\2\64\u013d\3\2\2\2\66\u013f\3\2\2\28\u0149\3\2\2\2")
+        buf.write(":\u014f\3\2\2\2<\u0155\3\2\2\2>\u0161\3\2\2\2@\u0163\3")
+        buf.write("\2\2\2B\u017e\3\2\2\2D\u0180\3\2\2\2F\u0182\3\2\2\2H\u0184")
+        buf.write("\3\2\2\2J\u0186\3\2\2\2L\u0188\3\2\2\2N\u018a\3\2\2\2")
+        buf.write("P\u018c\3\2\2\2R\u018e\3\2\2\2T\u0195\3\2\2\2V\u019c\3")
+        buf.write("\2\2\2X\u01a0\3\2\2\2Z\u01a7\3\2\2\2\\\u01b1\3\2\2\2^")
+        buf.write("_\5\4\3\2_\3\3\2\2\2`b\5\b\5\2a`\3\2\2\2be\3\2\2\2ca\3")
+        buf.write("\2\2\2cd\3\2\2\2df\3\2\2\2ec\3\2\2\2fj\5\6\4\2gi\5\b\5")
+        buf.write("\2hg\3\2\2\2il\3\2\2\2jh\3\2\2\2jk\3\2\2\2k\5\3\2\2\2")
+        buf.write("lj\3\2\2\2mn\7\3\2\2no\7\4\2\2op\7\5\2\2pq\7\6\2\2qr\7")
+        buf.write("\7\2\2rs\7\5\2\2st\7\6\2\2tx\7\27\2\2uw\5\32\16\2vu\3")
+        buf.write("\2\2\2wz\3\2\2\2xv\3\2\2\2xy\3\2\2\2y{\3\2\2\2zx\3\2\2")
+        buf.write("\2{|\7\30\2\2|\7\3\2\2\2}~\7\3\2\2~\177\7?\2\2\177\u0081")
+        buf.write("\7\5\2\2\u0080\u0082\5\f\7\2\u0081\u0080\3\2\2\2\u0081")
+        buf.write("\u0082\3\2\2\2\u0082\u0083\3\2\2\2\u0083\u008a\7\6\2\2")
+        buf.write("\u0084\u0085\7\7\2\2\u0085\u0087\7\5\2\2\u0086\u0088\5")
+        buf.write("\16\b\2\u0087\u0086\3\2\2\2\u0087\u0088\3\2\2\2\u0088")
+        buf.write("\u0089\3\2\2\2\u0089\u008b\7\6\2\2\u008a\u0084\3\2\2\2")
+        buf.write("\u008a\u008b\3\2\2\2\u008b\u008c\3\2\2\2\u008c\u0090\7")
+        buf.write("\27\2\2\u008d\u008f\5\32\16\2\u008e\u008d\3\2\2\2\u008f")
+        buf.write("\u0092\3\2\2\2\u0090\u008e\3\2\2\2\u0090\u0091\3\2\2\2")
+        buf.write("\u0091\u0093\3\2\2\2\u0092\u0090\3\2\2\2\u0093\u0094\7")
+        buf.write("\30\2\2\u0094\t\3\2\2\2\u0095\u009e\5\26\f\2\u0096\u009b")
+        buf.write("\5\30\r\2\u0097\u0098\7\33\2\2\u0098\u0099\5\24\13\2\u0099")
+        buf.write("\u009a\7\34\2\2\u009a\u009c\3\2\2\2\u009b\u0097\3\2\2")
+        buf.write("\2\u009b\u009c\3\2\2\2\u009c\u009e\3\2\2\2\u009d\u0095")
+        buf.write("\3\2\2\2\u009d\u0096\3\2\2\2\u009e\13\3\2\2\2\u009f\u00a4")
+        buf.write("\5\20\t\2\u00a0\u00a1\7\61\2\2\u00a1\u00a3\5\20\t\2\u00a2")
+        buf.write("\u00a0\3\2\2\2\u00a3\u00a6\3\2\2\2\u00a4\u00a2\3\2\2\2")
+        buf.write("\u00a4\u00a5\3\2\2\2\u00a5\r\3\2\2\2\u00a6\u00a4\3\2\2")
+        buf.write("\2\u00a7\u00ac\5\22\n\2\u00a8\u00a9\7\61\2\2\u00a9\u00ab")
+        buf.write("\5\22\n\2\u00aa\u00a8\3\2\2\2\u00ab\u00ae\3\2\2\2\u00ac")
+        buf.write("\u00aa\3\2\2\2\u00ac\u00ad\3\2\2\2\u00ad\17\3\2\2\2\u00ae")
+        buf.write("\u00ac\3\2\2\2\u00af\u00b2\7<\2\2\u00b0\u00b1\7\62\2\2")
+        buf.write("\u00b1\u00b3\5\n\6\2\u00b2\u00b0\3\2\2\2\u00b2\u00b3\3")
+        buf.write("\2\2\2\u00b3\21\3\2\2\2\u00b4\u00b7\7>\2\2\u00b5\u00b6")
+        buf.write("\7\62\2\2\u00b6\u00b8\5\n\6\2\u00b7\u00b5\3\2\2\2\u00b7")
+        buf.write("\u00b8\3\2\2\2\u00b8\23\3\2\2\2\u00b9\u00be\5\n\6\2\u00ba")
+        buf.write("\u00bb\7\61\2\2\u00bb\u00bd\5\n\6\2\u00bc\u00ba\3\2\2")
+        buf.write("\2\u00bd\u00c0\3\2\2\2\u00be\u00bc\3\2\2\2\u00be\u00bf")
+        buf.write("\3\2\2\2\u00bf\25\3\2\2\2\u00c0\u00be\3\2\2\2\u00c1\u00c2")
+        buf.write("\t\2\2\2\u00c2\27\3\2\2\2\u00c3\u00c4\t\3\2\2\u00c4\31")
+        buf.write("\3\2\2\2\u00c5\u00ca\5\34\17\2\u00c6\u00ca\5 \21\2\u00c7")
+        buf.write("\u00ca\5\36\20\2\u00c8\u00ca\5\"\22\2\u00c9\u00c5\3\2")
+        buf.write("\2\2\u00c9\u00c6\3\2\2\2\u00c9\u00c7\3\2\2\2\u00c9\u00c8")
+        buf.write("\3\2\2\2\u00ca\33\3\2\2\2\u00cb\u00cc\7:\2\2\u00cc\u00cd")
+        buf.write("\5(\25\2\u00cd\u00ce\7\66\2\2\u00ce\35\3\2\2\2\u00cf\u00d1")
+        buf.write("\7\b\2\2\u00d0\u00d2\5(\25\2\u00d1\u00d0\3\2\2\2\u00d1")
+        buf.write("\u00d2\3\2\2\2\u00d2\u00d3\3\2\2\2\u00d3\u00d4\7\66\2")
+        buf.write("\2\u00d4\37\3\2\2\2\u00d5\u00d6\7\63\2\2\u00d6\u00d7\5")
+        buf.write("*\26\2\u00d7\u00db\7\27\2\2\u00d8\u00da\5\32\16\2\u00d9")
+        buf.write("\u00d8\3\2\2\2\u00da\u00dd\3\2\2\2\u00db\u00d9\3\2\2\2")
+        buf.write("\u00db\u00dc\3\2\2\2\u00dc\u00de\3\2\2\2\u00dd\u00db\3")
+        buf.write("\2\2\2\u00de\u00e8\7\30\2\2\u00df\u00e0\7\65\2\2\u00e0")
+        buf.write("\u00e4\7\27\2\2\u00e1\u00e3\5\32\16\2\u00e2\u00e1\3\2")
+        buf.write("\2\2\u00e3\u00e6\3\2\2\2\u00e4\u00e2\3\2\2\2\u00e4\u00e5")
+        buf.write("\3\2\2\2\u00e5\u00e7\3\2\2\2\u00e6\u00e4\3\2\2\2\u00e7")
+        buf.write("\u00e9\7\30\2\2\u00e8\u00df\3\2\2\2\u00e8\u00e9\3\2\2")
+        buf.write("\2\u00e9!\3\2\2\2\u00ea\u00ec\7\26\2\2\u00eb\u00ea\3\2")
+        buf.write("\2\2\u00eb\u00ec\3\2\2\2\u00ec\u00ed\3\2\2\2\u00ed\u00ee")
+        buf.write("\5$\23\2\u00ee\u00ef\7\62\2\2\u00ef\u00f0\7\31\2\2\u00f0")
+        buf.write("\u00f1\5(\25\2\u00f1\u00f2\7\66\2\2\u00f2#\3\2\2\2\u00f3")
+        buf.write("\u00f8\5&\24\2\u00f4\u00f5\7\61\2\2\u00f5\u00f7\5&\24")
+        buf.write("\2\u00f6\u00f4\3\2\2\2\u00f7\u00fa\3\2\2\2\u00f8\u00f6")
+        buf.write("\3\2\2\2\u00f8\u00f9\3\2\2\2\u00f9%\3\2\2\2\u00fa\u00f8")
+        buf.write("\3\2\2\2\u00fb\u00fc\5\\/\2\u00fc\u00fd\7\62\2\2\u00fd")
+        buf.write("\u00fe\5\n\6\2\u00fe\'\3\2\2\2\u00ff\u0104\5*\26\2\u0100")
+        buf.write("\u0101\7\61\2\2\u0101\u0103\5*\26\2\u0102\u0100\3\2\2")
+        buf.write("\2\u0103\u0106\3\2\2\2\u0104\u0102\3\2\2\2\u0104\u0105")
+        buf.write("\3\2\2\2\u0105)\3\2\2\2\u0106\u0104\3\2\2\2\u0107\u0108")
+        buf.write("\b\26\1\2\u0108\u0118\5,\27\2\u0109\u010a\5P)\2\u010a")
+        buf.write("\u010b\5*\26\f\u010b\u0118\3\2\2\2\u010c\u010d\7\32\2")
+        buf.write("\2\u010d\u010e\5*\26\2\u010e\u010f\7\32\2\2\u010f\u0118")
+        buf.write("\3\2\2\2\u0110\u0118\5R*\2\u0111\u0118\5T+\2\u0112\u0118")
+        buf.write("\5\\/\2\u0113\u0114\7\5\2\2\u0114\u0115\5*\26\2\u0115")
+        buf.write("\u0116\7\6\2\2\u0116\u0118\3\2\2\2\u0117\u0107\3\2\2\2")
+        buf.write("\u0117\u0109\3\2\2\2\u0117\u010c\3\2\2\2\u0117\u0110\3")
+        buf.write("\2\2\2\u0117\u0111\3\2\2\2\u0117\u0112\3\2\2\2\u0117\u0113")
+        buf.write("\3\2\2\2\u0118\u0128\3\2\2\2\u0119\u011a\f\r\2\2\u011a")
+        buf.write("\u011b\5B\"\2\u011b\u011c\5*\26\16\u011c\u0127\3\2\2\2")
+        buf.write("\u011d\u011e\f\b\2\2\u011e\u0127\5V,\2\u011f\u0120\f\7")
+        buf.write("\2\2\u0120\u0127\5X-\2\u0121\u0122\f\6\2\2\u0122\u0127")
+        buf.write("\5Z.\2\u0123\u0124\f\3\2\2\u0124\u0125\7B\2\2\u0125\u0127")
+        buf.write("\t\4\2\2\u0126\u0119\3\2\2\2\u0126\u011d\3\2\2\2\u0126")
+        buf.write("\u011f\3\2\2\2\u0126\u0121\3\2\2\2\u0126\u0123\3\2\2\2")
+        buf.write("\u0127\u012a\3\2\2\2\u0128\u0126\3\2\2\2\u0128\u0129\3")
+        buf.write("\2\2\2\u0129+\3\2\2\2\u012a\u0128\3\2\2\2\u012b\u0136")
+        buf.write("\5.\30\2\u012c\u0136\5\60\31\2\u012d\u0136\5\62\32\2\u012e")
+        buf.write("\u0136\5\64\33\2\u012f\u0136\5\66\34\2\u0130\u0136\58")
+        buf.write("\35\2\u0131\u0136\5:\36\2\u0132\u0136\5<\37\2\u0133\u0136")
+        buf.write("\5> \2\u0134\u0136\5@!\2\u0135\u012b\3\2\2\2\u0135\u012c")
+        buf.write("\3\2\2\2\u0135\u012d\3\2\2\2\u0135\u012e\3\2\2\2\u0135")
+        buf.write("\u012f\3\2\2\2\u0135\u0130\3\2\2\2\u0135\u0131\3\2\2\2")
+        buf.write("\u0135\u0132\3\2\2\2\u0135\u0133\3\2\2\2\u0135\u0134\3")
+        buf.write("\2\2\2\u0136-\3\2\2\2\u0137\u0138\7@\2\2\u0138/\3\2\2")
+        buf.write("\2\u0139\u013a\7C\2\2\u013a\61\3\2\2\2\u013b\u013c\7;")
+        buf.write("\2\2\u013c\63\3\2\2\2\u013d\u013e\7A\2\2\u013e\65\3\2")
+        buf.write("\2\2\u013f\u0140\79\2\2\u0140\u0141\5\n\6\2\u0141\u0142")
+        buf.write("\7/\2\2\u0142\u0143\7\60\2\2\u0143\u0145\7/\2\2\u0144")
         buf.write("\u0146\5(\25\2\u0145\u0144\3\2\2\2\u0145\u0146\3\2\2\2")
-        buf.write("\u0146\u0147\3\2\2\2\u0147\u0148\7\24\2\2\u01489\3\2\2")
-        buf.write("\2\u0149\u014b\7+\2\2\u014a\u014c\5(\25\2\u014b\u014a")
+        buf.write("\u0146\u0147\3\2\2\2\u0147\u0148\7\60\2\2\u0148\67\3\2")
+        buf.write("\2\2\u0149\u014b\7\27\2\2\u014a\u014c\5(\25\2\u014b\u014a")
         buf.write("\3\2\2\2\u014b\u014c\3\2\2\2\u014c\u014d\3\2\2\2\u014d")
-        buf.write("\u014e\7,\2\2\u014e;\3\2\2\2\u014f\u0159\7\21\2\2\u0150")
-        buf.write("\u0151\7\5\2\2\u0151\u0152\5*\26\2\u0152\u0153\7\6\2\2")
-        buf.write("\u0153\u015a\3\2\2\2\u0154\u0156\7\23\2\2\u0155\u0157")
-        buf.write("\5(\25\2\u0156\u0155\3\2\2\2\u0156\u0157\3\2\2\2\u0157")
-        buf.write("\u0158\3\2\2\2\u0158\u015a\7\24\2\2\u0159\u0150\3\2\2")
-        buf.write("\2\u0159\u0154\3\2\2\2\u015a=\3\2\2\2\u015b\u015c\7?\2")
-        buf.write("\2\u015c?\3\2\2\2\u015d\u0164\5B\"\2\u015e\u0164\5D#\2")
-        buf.write("\u015f\u0164\5F$\2\u0160\u0164\5H%\2\u0161\u0164\5J&\2")
-        buf.write("\u0162\u0164\5L\'\2\u0163\u015d\3\2\2\2\u0163\u015e\3")
-        buf.write("\2\2\2\u0163\u015f\3\2\2\2\u0163\u0160\3\2\2\2\u0163\u0161")
-        buf.write("\3\2\2\2\u0163\u0162\3\2\2\2\u0164A\3\2\2\2\u0165\u0166")
-        buf.write("\7\31\2\2\u0166C\3\2\2\2\u0167\u0168\t\4\2\2\u0168E\3")
-        buf.write("\2\2\2\u0169\u016a\t\5\2\2\u016aG\3\2\2\2\u016b\u016c")
-        buf.write("\t\6\2\2\u016cI\3\2\2\2\u016d\u016e\t\7\2\2\u016eK\3\2")
-        buf.write("\2\2\u016f\u0170\t\b\2\2\u0170M\3\2\2\2\u0171\u0172\t")
-        buf.write("\t\2\2\u0172O\3\2\2\2\u0173\u0174\7;\2\2\u0174\u0176\7")
-        buf.write("\5\2\2\u0175\u0177\5(\25\2\u0176\u0175\3\2\2\2\u0176\u0177")
-        buf.write("\3\2\2\2\u0177\u0178\3\2\2\2\u0178\u0179\7\6\2\2\u0179")
-        buf.write("Q\3\2\2\2\u017a\u017b\7/\2\2\u017b\u017c\5*\26\2\u017c")
-        buf.write("\u017d\7\60\2\2\u017d\u017e\5*\26\2\u017e\u017f\7\61\2")
-        buf.write("\2\u017f\u0180\5*\26\2\u0180S\3\2\2\2\u0181\u0182\7+\2")
-        buf.write("\2\u0182\u0183\5*\26\2\u0183\u0184\7,\2\2\u0184U\3\2\2")
-        buf.write("\2\u0185\u0186\7+\2\2\u0186\u0187\5*\26\2\u0187\u0188")
-        buf.write("\7.\2\2\u0188\u0189\7\25\2\2\u0189\u018a\5*\26\2\u018a")
-        buf.write("\u018b\7,\2\2\u018bW\3\2\2\2\u018c\u018e\7+\2\2\u018d")
-        buf.write("\u018f\5*\26\2\u018e\u018d\3\2\2\2\u018e\u018f\3\2\2\2")
-        buf.write("\u018f\u0190\3\2\2\2\u0190\u0192\7\64\2\2\u0191\u0193")
-        buf.write("\5*\26\2\u0192\u0191\3\2\2\2\u0192\u0193\3\2\2\2\u0193")
-        buf.write("\u0194\3\2\2\2\u0194\u0195\7,\2\2\u0195Y\3\2\2\2\u0196")
-        buf.write("\u0197\t\n\2\2\u0197[\3\2\2\2%ahv\177\u0085\u0088\u008e")
-        buf.write("\u0099\u009b\u00a2\u00aa\u00b0\u00b5\u00bc\u00c7\u00cf")
-        buf.write("\u00d9\u00e2\u00e6\u00e9\u00f6\u0102\u0115\u0121\u0123")
-        buf.write("\u012f\u013f\u0145\u014b\u0156\u0159\u0163\u0176\u018e")
-        buf.write("\u0192")
+        buf.write("\u014e\7\30\2\2\u014e9\3\2\2\2\u014f\u0151\7/\2\2\u0150")
+        buf.write("\u0152\5(\25\2\u0151\u0150\3\2\2\2\u0151\u0152\3\2\2\2")
+        buf.write("\u0152\u0153\3\2\2\2\u0153\u0154\7\60\2\2\u0154;\3\2\2")
+        buf.write("\2\u0155\u015f\7\21\2\2\u0156\u0157\7\5\2\2\u0157\u0158")
+        buf.write("\5*\26\2\u0158\u0159\7\6\2\2\u0159\u0160\3\2\2\2\u015a")
+        buf.write("\u015c\7\27\2\2\u015b\u015d\5(\25\2\u015c\u015b\3\2\2")
+        buf.write("\2\u015c\u015d\3\2\2\2\u015d\u015e\3\2\2\2\u015e\u0160")
+        buf.write("\7\30\2\2\u015f\u0156\3\2\2\2\u015f\u015a\3\2\2\2\u0160")
+        buf.write("=\3\2\2\2\u0161\u0162\7D\2\2\u0162?\3\2\2\2\u0163\u0164")
+        buf.write("\7\22\2\2\u0164\u0174\7/\2\2\u0165\u0166\5*\26\2\u0166")
+        buf.write("\u0167\7\62\2\2\u0167\u0168\7\31\2\2\u0168\u0171\5*\26")
+        buf.write("\2\u0169\u016a\7\61\2\2\u016a\u016b\5*\26\2\u016b\u016c")
+        buf.write("\7\62\2\2\u016c\u016d\7\31\2\2\u016d\u016e\5*\26\2\u016e")
+        buf.write("\u0170\3\2\2\2\u016f\u0169\3\2\2\2\u0170\u0173\3\2\2\2")
+        buf.write("\u0171\u016f\3\2\2\2\u0171\u0172\3\2\2\2\u0172\u0175\3")
+        buf.write("\2\2\2\u0173\u0171\3\2\2\2\u0174\u0165\3\2\2\2\u0174\u0175")
+        buf.write("\3\2\2\2\u0175\u0176\3\2\2\2\u0176\u0177\7\60\2\2\u0177")
+        buf.write("A\3\2\2\2\u0178\u017f\5D#\2\u0179\u017f\5F$\2\u017a\u017f")
+        buf.write("\5H%\2\u017b\u017f\5J&\2\u017c\u017f\5L\'\2\u017d\u017f")
+        buf.write("\5N(\2\u017e\u0178\3\2\2\2\u017e\u0179\3\2\2\2\u017e\u017a")
+        buf.write("\3\2\2\2\u017e\u017b\3\2\2\2\u017e\u017c\3\2\2\2\u017e")
+        buf.write("\u017d\3\2\2\2\u017fC\3\2\2\2\u0180\u0181\7\35\2\2\u0181")
+        buf.write("E\3\2\2\2\u0182\u0183\t\5\2\2\u0183G\3\2\2\2\u0184\u0185")
+        buf.write("\t\6\2\2\u0185I\3\2\2\2\u0186\u0187\t\7\2\2\u0187K\3\2")
+        buf.write("\2\2\u0188\u0189\t\b\2\2\u0189M\3\2\2\2\u018a\u018b\t")
+        buf.write("\t\2\2\u018bO\3\2\2\2\u018c\u018d\t\n\2\2\u018dQ\3\2\2")
+        buf.write("\2\u018e\u018f\7?\2\2\u018f\u0191\7\5\2\2\u0190\u0192")
+        buf.write("\5(\25\2\u0191\u0190\3\2\2\2\u0191\u0192\3\2\2\2\u0192")
+        buf.write("\u0193\3\2\2\2\u0193\u0194\7\6\2\2\u0194S\3\2\2\2\u0195")
+        buf.write("\u0196\7\63\2\2\u0196\u0197\5*\26\2\u0197\u0198\7\64\2")
+        buf.write("\2\u0198\u0199\5*\26\2\u0199\u019a\7\65\2\2\u019a\u019b")
+        buf.write("\5*\26\2\u019bU\3\2\2\2\u019c\u019d\7/\2\2\u019d\u019e")
+        buf.write("\5*\26\2\u019e\u019f\7\60\2\2\u019fW\3\2\2\2\u01a0\u01a1")
+        buf.write("\7/\2\2\u01a1\u01a2\5*\26\2\u01a2\u01a3\7\62\2\2\u01a3")
+        buf.write("\u01a4\7\31\2\2\u01a4\u01a5\5*\26\2\u01a5\u01a6\7\60\2")
+        buf.write("\2\u01a6Y\3\2\2\2\u01a7\u01a9\7/\2\2\u01a8\u01aa\5*\26")
+        buf.write("\2\u01a9\u01a8\3\2\2\2\u01a9\u01aa\3\2\2\2\u01aa\u01ab")
+        buf.write("\3\2\2\2\u01ab\u01ad\78\2\2\u01ac\u01ae\5*\26\2\u01ad")
+        buf.write("\u01ac\3\2\2\2\u01ad\u01ae\3\2\2\2\u01ae\u01af\3\2\2\2")
+        buf.write("\u01af\u01b0\7\60\2\2\u01b0[\3\2\2\2\u01b1\u01b2\t\13")
+        buf.write("\2\2\u01b2]\3\2\2\2\'cjx\u0081\u0087\u008a\u0090\u009b")
+        buf.write("\u009d\u00a4\u00ac\u00b2\u00b7\u00be\u00c9\u00d1\u00db")
+        buf.write("\u00e4\u00e8\u00eb\u00f8\u0104\u0117\u0126\u0128\u0135")
+        buf.write("\u0145\u014b\u0151\u015c\u015f\u0171\u0174\u017e\u0191")
+        buf.write("\u01a9\u01ad")
         return buf.getvalue()
 
 
@@ -208,25 +222,26 @@ class DafnyParser ( Parser ):
     literalNames = [ "<INVALID>", "'method'", "'Main'", "'('", "')'", "'returns'", 
                      "'return'", "'int'", "'char'", "'real'", "'string'", 
                      "'bool'", "'array'", "'seq'", "'set'", "'multiset'", 
-                     "'var'", "'{'", "'}'", "'='", "'|'", "'<'", "'>'", 
-                     "<INVALID>", "<INVALID>", "<INVALID>", "'&&'", "<INVALID>", 
-                     "'-'", "'+'", "<INVALID>", "<INVALID>", "<INVALID>", 
-                     "<INVALID>", "'in'", "<INVALID>", "<INVALID>", "'*'", 
-                     "'/'", "'%'", "<INVALID>", "'['", "']'", "','", "':'", 
-                     "'if'", "'then'", "'else'", "';'", "'0x'", "<INVALID>", 
-                     "'new'", "'print'" ]
+                     "'map'", "'Keys'", "'Values'", "'Length'", "'var'", 
+                     "'{'", "'}'", "'='", "'|'", "'<'", "'>'", "<INVALID>", 
+                     "<INVALID>", "<INVALID>", "'&&'", "<INVALID>", "'-'", 
+                     "'+'", "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
+                     "'in'", "<INVALID>", "<INVALID>", "'*'", "'/'", "'%'", 
+                     "<INVALID>", "'['", "']'", "','", "':'", "'if'", "'then'", 
+                     "'else'", "';'", "'0x'", "<INVALID>", "'new'", "'print'" ]
 
     symbolicNames = [ "<INVALID>", "METHOD", "MAIN", "LBRACKET", "RBRACKET", 
                       "RETURNS", "RETURN", "INT", "CHAR", "REAL", "STRING", 
-                      "BOOL", "ARRAY", "SEQ", "SET", "MULTISET", "VAR", 
-                      "LCURLY", "RCURLY", "EQUAL", "BAR", "LANGLE", "RANGLE", 
-                      "IFF", "IMPLIES", "REVERSE_IMPLIES", "CONJUNCT", "DISJUNCT", 
-                      "MINUS", "PLUS", "EQUALITY", "DISEQUALITY", "LTE", 
-                      "GTE", "IN", "NOT_IN", "DISJOINT", "MULT", "DIV", 
-                      "MOD", "NOT", "LSQUARE", "RSQUARE", "COMMA", "COLON", 
-                      "IF", "THEN", "ELSE", "SEMICOLON", "HEX", "SPREAD", 
-                      "NEW", "PRINT", "BOOL_LITERAL", "PARAM_NAME", "VARIABLE_NAME", 
-                      "RETURN_NAME", "METHOD_NAME", "INT_LITERAL", "REAL_LITERAL", 
+                      "BOOL", "ARRAY", "SEQ", "SET", "MULTISET", "MAP", 
+                      "KEYS", "VALUES", "LENGTH", "VAR", "LCURLY", "RCURLY", 
+                      "EQUAL", "BAR", "LANGLE", "RANGLE", "IFF", "IMPLIES", 
+                      "REVERSE_IMPLIES", "CONJUNCT", "DISJUNCT", "MINUS", 
+                      "PLUS", "EQUALITY", "DISEQUALITY", "LTE", "GTE", "IN", 
+                      "NOT_IN", "DISJOINT", "MULT", "DIV", "MOD", "NOT", 
+                      "LSQUARE", "RSQUARE", "COMMA", "COLON", "IF", "THEN", 
+                      "ELSE", "SEMICOLON", "HEX", "SPREAD", "NEW", "PRINT", 
+                      "BOOL_LITERAL", "PARAM_NAME", "VARIABLE_NAME", "RETURN_NAME", 
+                      "METHOD_NAME", "INT_LITERAL", "REAL_LITERAL", "DOT", 
                       "CHAR_LITERAL", "STRING_LITERAL", "WS", "ERROR" ]
 
     RULE_translation_unit = 0
@@ -260,20 +275,21 @@ class DafnyParser ( Parser ):
     RULE_seqLiteral = 28
     RULE_multisetLiteral = 29
     RULE_stringLiteral = 30
-    RULE_binaryOperator = 31
-    RULE_op1 = 32
-    RULE_op2 = 33
-    RULE_op3 = 34
-    RULE_op4 = 35
-    RULE_op6 = 36
-    RULE_op7 = 37
-    RULE_unaryOperator = 38
-    RULE_callExpr = 39
-    RULE_ifElseExpr = 40
-    RULE_indexExpr = 41
-    RULE_reassignSeq = 42
-    RULE_subsequence = 43
-    RULE_variable = 44
+    RULE_mapLiteral = 31
+    RULE_binaryOperator = 32
+    RULE_op1 = 33
+    RULE_op2 = 34
+    RULE_op3 = 35
+    RULE_op4 = 36
+    RULE_op6 = 37
+    RULE_op7 = 38
+    RULE_unaryOperator = 39
+    RULE_callExpr = 40
+    RULE_ifElseExpr = 41
+    RULE_indexExpr = 42
+    RULE_update = 43
+    RULE_subsequence = 44
+    RULE_variable = 45
 
     ruleNames =  [ "translation_unit", "program", "main", "method", "dafnyType", 
                    "paramList", "returnList", "paramArg", "returnArg", "typeList", 
@@ -281,10 +297,10 @@ class DafnyParser ( Parser ):
                    "ifElseStat", "assignStat", "variableList", "variableArg", 
                    "exprList", "expr", "literal", "intLiteral", "charLiteral", 
                    "boolLiteral", "realLiteral", "arrayLiteral", "setLiteral", 
-                   "seqLiteral", "multisetLiteral", "stringLiteral", "binaryOperator", 
-                   "op1", "op2", "op3", "op4", "op6", "op7", "unaryOperator", 
-                   "callExpr", "ifElseExpr", "indexExpr", "reassignSeq", 
-                   "subsequence", "variable" ]
+                   "seqLiteral", "multisetLiteral", "stringLiteral", "mapLiteral", 
+                   "binaryOperator", "op1", "op2", "op3", "op4", "op6", 
+                   "op7", "unaryOperator", "callExpr", "ifElseExpr", "indexExpr", 
+                   "update", "subsequence", "variable" ]
 
     EOF = Token.EOF
     METHOD=1
@@ -302,54 +318,59 @@ class DafnyParser ( Parser ):
     SEQ=13
     SET=14
     MULTISET=15
-    VAR=16
-    LCURLY=17
-    RCURLY=18
-    EQUAL=19
-    BAR=20
-    LANGLE=21
-    RANGLE=22
-    IFF=23
-    IMPLIES=24
-    REVERSE_IMPLIES=25
-    CONJUNCT=26
-    DISJUNCT=27
-    MINUS=28
-    PLUS=29
-    EQUALITY=30
-    DISEQUALITY=31
-    LTE=32
-    GTE=33
-    IN=34
-    NOT_IN=35
-    DISJOINT=36
-    MULT=37
-    DIV=38
-    MOD=39
-    NOT=40
-    LSQUARE=41
-    RSQUARE=42
-    COMMA=43
-    COLON=44
-    IF=45
-    THEN=46
-    ELSE=47
-    SEMICOLON=48
-    HEX=49
-    SPREAD=50
-    NEW=51
-    PRINT=52
-    BOOL_LITERAL=53
-    PARAM_NAME=54
-    VARIABLE_NAME=55
-    RETURN_NAME=56
-    METHOD_NAME=57
-    INT_LITERAL=58
-    REAL_LITERAL=59
-    CHAR_LITERAL=60
-    STRING_LITERAL=61
-    WS=62
-    ERROR=63
+    MAP=16
+    KEYS=17
+    VALUES=18
+    LENGTH=19
+    VAR=20
+    LCURLY=21
+    RCURLY=22
+    EQUAL=23
+    BAR=24
+    LANGLE=25
+    RANGLE=26
+    IFF=27
+    IMPLIES=28
+    REVERSE_IMPLIES=29
+    CONJUNCT=30
+    DISJUNCT=31
+    MINUS=32
+    PLUS=33
+    EQUALITY=34
+    DISEQUALITY=35
+    LTE=36
+    GTE=37
+    IN=38
+    NOT_IN=39
+    DISJOINT=40
+    MULT=41
+    DIV=42
+    MOD=43
+    NOT=44
+    LSQUARE=45
+    RSQUARE=46
+    COMMA=47
+    COLON=48
+    IF=49
+    THEN=50
+    ELSE=51
+    SEMICOLON=52
+    HEX=53
+    SPREAD=54
+    NEW=55
+    PRINT=56
+    BOOL_LITERAL=57
+    PARAM_NAME=58
+    VARIABLE_NAME=59
+    RETURN_NAME=60
+    METHOD_NAME=61
+    INT_LITERAL=62
+    REAL_LITERAL=63
+    DOT=64
+    CHAR_LITERAL=65
+    STRING_LITERAL=66
+    WS=67
+    ERROR=68
 
     def __init__(self, input:TokenStream, output:TextIO = sys.stdout):
         super().__init__(input, output)
@@ -389,7 +410,7 @@ class DafnyParser ( Parser ):
         self.enterRule(localctx, 0, self.RULE_translation_unit)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 90
+            self.state = 92
             self.program()
         except RecognitionException as re:
             localctx.exception = re
@@ -437,26 +458,26 @@ class DafnyParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 95
+            self.state = 97
             self._errHandler.sync(self)
             _alt = self._interp.adaptivePredict(self._input,0,self._ctx)
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                 if _alt==1:
-                    self.state = 92
+                    self.state = 94
                     self.method() 
-                self.state = 97
+                self.state = 99
                 self._errHandler.sync(self)
                 _alt = self._interp.adaptivePredict(self._input,0,self._ctx)
 
-            self.state = 98
+            self.state = 100
             self.main()
-            self.state = 102
+            self.state = 104
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while _la==DafnyParser.METHOD:
-                self.state = 99
+                self.state = 101
                 self.method()
-                self.state = 104
+                self.state = 106
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -529,33 +550,33 @@ class DafnyParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 105
-            self.match(DafnyParser.METHOD)
-            self.state = 106
-            self.match(DafnyParser.MAIN)
             self.state = 107
-            self.match(DafnyParser.LBRACKET)
+            self.match(DafnyParser.METHOD)
             self.state = 108
-            self.match(DafnyParser.RBRACKET)
+            self.match(DafnyParser.MAIN)
             self.state = 109
-            self.match(DafnyParser.RETURNS)
-            self.state = 110
             self.match(DafnyParser.LBRACKET)
-            self.state = 111
+            self.state = 110
             self.match(DafnyParser.RBRACKET)
+            self.state = 111
+            self.match(DafnyParser.RETURNS)
             self.state = 112
+            self.match(DafnyParser.LBRACKET)
+            self.state = 113
+            self.match(DafnyParser.RBRACKET)
+            self.state = 114
             self.match(DafnyParser.LCURLY)
-            self.state = 116
+            self.state = 118
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while (((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << DafnyParser.RETURN) | (1 << DafnyParser.VAR) | (1 << DafnyParser.IF) | (1 << DafnyParser.PRINT) | (1 << DafnyParser.PARAM_NAME) | (1 << DafnyParser.VARIABLE_NAME))) != 0):
-                self.state = 113
+                self.state = 115
                 self.stat()
-                self.state = 118
+                self.state = 120
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 119
+            self.state = 121
             self.match(DafnyParser.RCURLY)
         except RecognitionException as re:
             localctx.exception = re
@@ -634,55 +655,55 @@ class DafnyParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 121
-            self.match(DafnyParser.METHOD)
-            self.state = 122
-            self.match(DafnyParser.METHOD_NAME)
             self.state = 123
-            self.match(DafnyParser.LBRACKET)
+            self.match(DafnyParser.METHOD)
+            self.state = 124
+            self.match(DafnyParser.METHOD_NAME)
             self.state = 125
+            self.match(DafnyParser.LBRACKET)
+            self.state = 127
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==DafnyParser.PARAM_NAME:
-                self.state = 124
+                self.state = 126
                 self.paramList()
 
 
-            self.state = 127
+            self.state = 129
             self.match(DafnyParser.RBRACKET)
-            self.state = 134
+            self.state = 136
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==DafnyParser.RETURNS:
-                self.state = 128
+                self.state = 130
                 self.match(DafnyParser.RETURNS)
-                self.state = 129
-                self.match(DafnyParser.LBRACKET)
                 self.state = 131
+                self.match(DafnyParser.LBRACKET)
+                self.state = 133
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
                 if _la==DafnyParser.RETURN_NAME:
-                    self.state = 130
+                    self.state = 132
                     self.returnList()
 
 
-                self.state = 133
+                self.state = 135
                 self.match(DafnyParser.RBRACKET)
 
 
-            self.state = 136
+            self.state = 138
             self.match(DafnyParser.LCURLY)
-            self.state = 140
+            self.state = 142
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while (((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << DafnyParser.RETURN) | (1 << DafnyParser.VAR) | (1 << DafnyParser.IF) | (1 << DafnyParser.PRINT) | (1 << DafnyParser.PARAM_NAME) | (1 << DafnyParser.VARIABLE_NAME))) != 0):
-                self.state = 137
+                self.state = 139
                 self.stat()
-                self.state = 142
+                self.state = 144
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 143
+            self.state = 145
             self.match(DafnyParser.RCURLY)
         except RecognitionException as re:
             localctx.exception = re
@@ -736,27 +757,27 @@ class DafnyParser ( Parser ):
         self.enterRule(localctx, 8, self.RULE_dafnyType)
         self._la = 0 # Token type
         try:
-            self.state = 153
+            self.state = 155
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [DafnyParser.INT, DafnyParser.CHAR, DafnyParser.REAL, DafnyParser.STRING, DafnyParser.BOOL]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 145
+                self.state = 147
                 self.baseType()
                 pass
-            elif token in [DafnyParser.ARRAY, DafnyParser.SEQ, DafnyParser.SET, DafnyParser.MULTISET]:
+            elif token in [DafnyParser.ARRAY, DafnyParser.SEQ, DafnyParser.SET, DafnyParser.MULTISET, DafnyParser.MAP]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 146
+                self.state = 148
                 self.collectionType()
-                self.state = 151
+                self.state = 153
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
                 if _la==DafnyParser.LANGLE:
-                    self.state = 147
-                    self.match(DafnyParser.LANGLE)
-                    self.state = 148
-                    self.typeList()
                     self.state = 149
+                    self.match(DafnyParser.LANGLE)
+                    self.state = 150
+                    self.typeList()
+                    self.state = 151
                     self.match(DafnyParser.RANGLE)
 
 
@@ -812,17 +833,17 @@ class DafnyParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 155
+            self.state = 157
             self.paramArg()
-            self.state = 160
+            self.state = 162
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while _la==DafnyParser.COMMA:
-                self.state = 156
+                self.state = 158
                 self.match(DafnyParser.COMMA)
-                self.state = 157
+                self.state = 159
                 self.paramArg()
-                self.state = 162
+                self.state = 164
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -874,17 +895,17 @@ class DafnyParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 163
+            self.state = 165
             self.returnArg()
-            self.state = 168
+            self.state = 170
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while _la==DafnyParser.COMMA:
-                self.state = 164
+                self.state = 166
                 self.match(DafnyParser.COMMA)
-                self.state = 165
+                self.state = 167
                 self.returnArg()
-                self.state = 170
+                self.state = 172
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -933,15 +954,15 @@ class DafnyParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 171
+            self.state = 173
             self.match(DafnyParser.PARAM_NAME)
-            self.state = 174
+            self.state = 176
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==DafnyParser.COLON:
-                self.state = 172
+                self.state = 174
                 self.match(DafnyParser.COLON)
-                self.state = 173
+                self.state = 175
                 self.dafnyType()
 
 
@@ -990,15 +1011,15 @@ class DafnyParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 176
+            self.state = 178
             self.match(DafnyParser.RETURN_NAME)
-            self.state = 179
+            self.state = 181
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==DafnyParser.COLON:
-                self.state = 177
+                self.state = 179
                 self.match(DafnyParser.COLON)
-                self.state = 178
+                self.state = 180
                 self.dafnyType()
 
 
@@ -1050,17 +1071,17 @@ class DafnyParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 181
+            self.state = 183
             self.dafnyType()
-            self.state = 186
+            self.state = 188
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while _la==DafnyParser.COMMA:
-                self.state = 182
+                self.state = 184
                 self.match(DafnyParser.COMMA)
-                self.state = 183
+                self.state = 185
                 self.dafnyType()
-                self.state = 188
+                self.state = 190
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -1114,7 +1135,7 @@ class DafnyParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 189
+            self.state = 191
             _la = self._input.LA(1)
             if not((((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << DafnyParser.INT) | (1 << DafnyParser.CHAR) | (1 << DafnyParser.REAL) | (1 << DafnyParser.STRING) | (1 << DafnyParser.BOOL))) != 0)):
                 self._errHandler.recoverInline(self)
@@ -1147,6 +1168,9 @@ class DafnyParser ( Parser ):
         def MULTISET(self):
             return self.getToken(DafnyParser.MULTISET, 0)
 
+        def MAP(self):
+            return self.getToken(DafnyParser.MAP, 0)
+
         def getRuleIndex(self):
             return DafnyParser.RULE_collectionType
 
@@ -1168,9 +1192,9 @@ class DafnyParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 191
+            self.state = 193
             _la = self._input.LA(1)
-            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << DafnyParser.ARRAY) | (1 << DafnyParser.SEQ) | (1 << DafnyParser.SET) | (1 << DafnyParser.MULTISET))) != 0)):
+            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << DafnyParser.ARRAY) | (1 << DafnyParser.SEQ) | (1 << DafnyParser.SET) | (1 << DafnyParser.MULTISET) | (1 << DafnyParser.MAP))) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -1224,27 +1248,27 @@ class DafnyParser ( Parser ):
         localctx = DafnyParser.StatContext(self, self._ctx, self.state)
         self.enterRule(localctx, 24, self.RULE_stat)
         try:
-            self.state = 197
+            self.state = 199
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [DafnyParser.PRINT]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 193
+                self.state = 195
                 self.printStat()
                 pass
             elif token in [DafnyParser.IF]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 194
+                self.state = 196
                 self.ifElseStat()
                 pass
             elif token in [DafnyParser.RETURN]:
                 self.enterOuterAlt(localctx, 3)
-                self.state = 195
+                self.state = 197
                 self.returnStat()
                 pass
             elif token in [DafnyParser.VAR, DafnyParser.PARAM_NAME, DafnyParser.VARIABLE_NAME]:
                 self.enterOuterAlt(localctx, 4)
-                self.state = 196
+                self.state = 198
                 self.assignStat()
                 pass
             else:
@@ -1294,11 +1318,11 @@ class DafnyParser ( Parser ):
         self.enterRule(localctx, 26, self.RULE_printStat)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 199
-            self.match(DafnyParser.PRINT)
-            self.state = 200
-            self.exprList()
             self.state = 201
+            self.match(DafnyParser.PRINT)
+            self.state = 202
+            self.exprList()
+            self.state = 203
             self.match(DafnyParser.SEMICOLON)
         except RecognitionException as re:
             localctx.exception = re
@@ -1345,17 +1369,17 @@ class DafnyParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 203
-            self.match(DafnyParser.RETURN)
             self.state = 205
+            self.match(DafnyParser.RETURN)
+            self.state = 207
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if (((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << DafnyParser.LBRACKET) | (1 << DafnyParser.MULTISET) | (1 << DafnyParser.LCURLY) | (1 << DafnyParser.BAR) | (1 << DafnyParser.MINUS) | (1 << DafnyParser.NOT) | (1 << DafnyParser.LSQUARE) | (1 << DafnyParser.IF) | (1 << DafnyParser.NEW) | (1 << DafnyParser.BOOL_LITERAL) | (1 << DafnyParser.PARAM_NAME) | (1 << DafnyParser.VARIABLE_NAME) | (1 << DafnyParser.METHOD_NAME) | (1 << DafnyParser.INT_LITERAL) | (1 << DafnyParser.REAL_LITERAL) | (1 << DafnyParser.CHAR_LITERAL) | (1 << DafnyParser.STRING_LITERAL))) != 0):
-                self.state = 204
+            if ((((_la - 3)) & ~0x3f) == 0 and ((1 << (_la - 3)) & ((1 << (DafnyParser.LBRACKET - 3)) | (1 << (DafnyParser.MULTISET - 3)) | (1 << (DafnyParser.MAP - 3)) | (1 << (DafnyParser.LCURLY - 3)) | (1 << (DafnyParser.BAR - 3)) | (1 << (DafnyParser.MINUS - 3)) | (1 << (DafnyParser.NOT - 3)) | (1 << (DafnyParser.LSQUARE - 3)) | (1 << (DafnyParser.IF - 3)) | (1 << (DafnyParser.NEW - 3)) | (1 << (DafnyParser.BOOL_LITERAL - 3)) | (1 << (DafnyParser.PARAM_NAME - 3)) | (1 << (DafnyParser.VARIABLE_NAME - 3)) | (1 << (DafnyParser.METHOD_NAME - 3)) | (1 << (DafnyParser.INT_LITERAL - 3)) | (1 << (DafnyParser.REAL_LITERAL - 3)) | (1 << (DafnyParser.CHAR_LITERAL - 3)) | (1 << (DafnyParser.STRING_LITERAL - 3)))) != 0):
+                self.state = 206
                 self.exprList()
 
 
-            self.state = 207
+            self.state = 209
             self.match(DafnyParser.SEMICOLON)
         except RecognitionException as re:
             localctx.exception = re
@@ -1421,43 +1445,43 @@ class DafnyParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 209
-            self.match(DafnyParser.IF)
-            self.state = 210
-            self.expr(0)
             self.state = 211
+            self.match(DafnyParser.IF)
+            self.state = 212
+            self.expr(0)
+            self.state = 213
             self.match(DafnyParser.LCURLY)
-            self.state = 215
+            self.state = 217
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while (((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << DafnyParser.RETURN) | (1 << DafnyParser.VAR) | (1 << DafnyParser.IF) | (1 << DafnyParser.PRINT) | (1 << DafnyParser.PARAM_NAME) | (1 << DafnyParser.VARIABLE_NAME))) != 0):
-                self.state = 212
+                self.state = 214
                 self.stat()
-                self.state = 217
+                self.state = 219
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 218
+            self.state = 220
             self.match(DafnyParser.RCURLY)
-            self.state = 228
+            self.state = 230
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==DafnyParser.ELSE:
-                self.state = 219
+                self.state = 221
                 self.match(DafnyParser.ELSE)
-                self.state = 220
+                self.state = 222
                 self.match(DafnyParser.LCURLY)
-                self.state = 224
+                self.state = 226
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
                 while (((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << DafnyParser.RETURN) | (1 << DafnyParser.VAR) | (1 << DafnyParser.IF) | (1 << DafnyParser.PRINT) | (1 << DafnyParser.PARAM_NAME) | (1 << DafnyParser.VARIABLE_NAME))) != 0):
-                    self.state = 221
+                    self.state = 223
                     self.stat()
-                    self.state = 226
+                    self.state = 228
                     self._errHandler.sync(self)
                     _la = self._input.LA(1)
 
-                self.state = 227
+                self.state = 229
                 self.match(DafnyParser.RCURLY)
 
 
@@ -1516,23 +1540,23 @@ class DafnyParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 231
+            self.state = 233
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==DafnyParser.VAR:
-                self.state = 230
+                self.state = 232
                 self.match(DafnyParser.VAR)
 
 
-            self.state = 233
-            self.variableList()
-            self.state = 234
-            self.match(DafnyParser.COLON)
             self.state = 235
-            self.match(DafnyParser.EQUAL)
+            self.variableList()
             self.state = 236
-            self.exprList()
+            self.match(DafnyParser.COLON)
             self.state = 237
+            self.match(DafnyParser.EQUAL)
+            self.state = 238
+            self.exprList()
+            self.state = 239
             self.match(DafnyParser.SEMICOLON)
         except RecognitionException as re:
             localctx.exception = re
@@ -1582,17 +1606,17 @@ class DafnyParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 239
+            self.state = 241
             self.variableArg()
-            self.state = 244
+            self.state = 246
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while _la==DafnyParser.COMMA:
-                self.state = 240
+                self.state = 242
                 self.match(DafnyParser.COMMA)
-                self.state = 241
+                self.state = 243
                 self.variableArg()
-                self.state = 246
+                self.state = 248
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -1641,11 +1665,11 @@ class DafnyParser ( Parser ):
         self.enterRule(localctx, 36, self.RULE_variableArg)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 247
-            self.variable()
-            self.state = 248
-            self.match(DafnyParser.COLON)
             self.state = 249
+            self.variable()
+            self.state = 250
+            self.match(DafnyParser.COLON)
+            self.state = 251
             self.dafnyType()
         except RecognitionException as re:
             localctx.exception = re
@@ -1695,17 +1719,17 @@ class DafnyParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 251
+            self.state = 253
             self.expr(0)
-            self.state = 256
+            self.state = 258
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while _la==DafnyParser.COMMA:
-                self.state = 252
+                self.state = 254
                 self.match(DafnyParser.COMMA)
-                self.state = 253
+                self.state = 255
                 self.expr(0)
-                self.state = 258
+                self.state = 260
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -1770,13 +1794,25 @@ class DafnyParser ( Parser ):
             return self.getTypedRuleContext(DafnyParser.IndexExprContext,0)
 
 
-        def reassignSeq(self):
-            return self.getTypedRuleContext(DafnyParser.ReassignSeqContext,0)
+        def update(self):
+            return self.getTypedRuleContext(DafnyParser.UpdateContext,0)
 
 
         def subsequence(self):
             return self.getTypedRuleContext(DafnyParser.SubsequenceContext,0)
 
+
+        def DOT(self):
+            return self.getToken(DafnyParser.DOT, 0)
+
+        def KEYS(self):
+            return self.getToken(DafnyParser.KEYS, 0)
+
+        def VALUES(self):
+            return self.getToken(DafnyParser.VALUES, 0)
+
+        def LENGTH(self):
+            return self.getToken(DafnyParser.LENGTH, 0)
 
         def getRuleIndex(self):
             return DafnyParser.RULE_expr
@@ -1798,54 +1834,55 @@ class DafnyParser ( Parser ):
         _prevctx = localctx
         _startState = 40
         self.enterRecursionRule(localctx, 40, self.RULE_expr, _p)
+        self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 275
+            self.state = 277
             self._errHandler.sync(self)
             token = self._input.LA(1)
-            if token in [DafnyParser.MULTISET, DafnyParser.LCURLY, DafnyParser.LSQUARE, DafnyParser.NEW, DafnyParser.BOOL_LITERAL, DafnyParser.INT_LITERAL, DafnyParser.REAL_LITERAL, DafnyParser.CHAR_LITERAL, DafnyParser.STRING_LITERAL]:
-                self.state = 260
+            if token in [DafnyParser.MULTISET, DafnyParser.MAP, DafnyParser.LCURLY, DafnyParser.LSQUARE, DafnyParser.NEW, DafnyParser.BOOL_LITERAL, DafnyParser.INT_LITERAL, DafnyParser.REAL_LITERAL, DafnyParser.CHAR_LITERAL, DafnyParser.STRING_LITERAL]:
+                self.state = 262
                 self.literal()
                 pass
             elif token in [DafnyParser.MINUS, DafnyParser.NOT]:
-                self.state = 261
+                self.state = 263
                 self.unaryOperator()
-                self.state = 262
-                self.expr(9)
+                self.state = 264
+                self.expr(10)
                 pass
             elif token in [DafnyParser.BAR]:
-                self.state = 264
-                self.match(DafnyParser.BAR)
-                self.state = 265
-                self.expr(0)
                 self.state = 266
+                self.match(DafnyParser.BAR)
+                self.state = 267
+                self.expr(0)
+                self.state = 268
                 self.match(DafnyParser.BAR)
                 pass
             elif token in [DafnyParser.METHOD_NAME]:
-                self.state = 268
+                self.state = 270
                 self.callExpr()
                 pass
             elif token in [DafnyParser.IF]:
-                self.state = 269
+                self.state = 271
                 self.ifElseExpr()
                 pass
             elif token in [DafnyParser.PARAM_NAME, DafnyParser.VARIABLE_NAME]:
-                self.state = 270
+                self.state = 272
                 self.variable()
                 pass
             elif token in [DafnyParser.LBRACKET]:
-                self.state = 271
-                self.match(DafnyParser.LBRACKET)
-                self.state = 272
-                self.expr(0)
                 self.state = 273
+                self.match(DafnyParser.LBRACKET)
+                self.state = 274
+                self.expr(0)
+                self.state = 275
                 self.match(DafnyParser.RBRACKET)
                 pass
             else:
                 raise NoViableAltException(self)
 
             self._ctx.stop = self._input.LT(-1)
-            self.state = 289
+            self.state = 294
             self._errHandler.sync(self)
             _alt = self._interp.adaptivePredict(self._input,24,self._ctx)
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
@@ -1853,57 +1890,75 @@ class DafnyParser ( Parser ):
                     if self._parseListeners is not None:
                         self.triggerExitRuleEvent()
                     _prevctx = localctx
-                    self.state = 287
+                    self.state = 292
                     self._errHandler.sync(self)
                     la_ = self._interp.adaptivePredict(self._input,23,self._ctx)
                     if la_ == 1:
                         localctx = DafnyParser.ExprContext(self, _parentctx, _parentState)
                         self.pushNewRecursionContext(localctx, _startState, self.RULE_expr)
-                        self.state = 277
-                        if not self.precpred(self._ctx, 10):
-                            from antlr4.error.Errors import FailedPredicateException
-                            raise FailedPredicateException(self, "self.precpred(self._ctx, 10)")
-                        self.state = 278
-                        self.binaryOperator()
                         self.state = 279
-                        self.expr(11)
+                        if not self.precpred(self._ctx, 11):
+                            from antlr4.error.Errors import FailedPredicateException
+                            raise FailedPredicateException(self, "self.precpred(self._ctx, 11)")
+                        self.state = 280
+                        self.binaryOperator()
+                        self.state = 281
+                        self.expr(12)
                         pass
 
                     elif la_ == 2:
                         localctx = DafnyParser.ExprContext(self, _parentctx, _parentState)
                         self.pushNewRecursionContext(localctx, _startState, self.RULE_expr)
-                        self.state = 281
-                        if not self.precpred(self._ctx, 5):
+                        self.state = 283
+                        if not self.precpred(self._ctx, 6):
                             from antlr4.error.Errors import FailedPredicateException
-                            raise FailedPredicateException(self, "self.precpred(self._ctx, 5)")
-                        self.state = 282
+                            raise FailedPredicateException(self, "self.precpred(self._ctx, 6)")
+                        self.state = 284
                         self.indexExpr()
                         pass
 
                     elif la_ == 3:
                         localctx = DafnyParser.ExprContext(self, _parentctx, _parentState)
                         self.pushNewRecursionContext(localctx, _startState, self.RULE_expr)
-                        self.state = 283
-                        if not self.precpred(self._ctx, 4):
+                        self.state = 285
+                        if not self.precpred(self._ctx, 5):
                             from antlr4.error.Errors import FailedPredicateException
-                            raise FailedPredicateException(self, "self.precpred(self._ctx, 4)")
-                        self.state = 284
-                        self.reassignSeq()
+                            raise FailedPredicateException(self, "self.precpred(self._ctx, 5)")
+                        self.state = 286
+                        self.update()
                         pass
 
                     elif la_ == 4:
                         localctx = DafnyParser.ExprContext(self, _parentctx, _parentState)
                         self.pushNewRecursionContext(localctx, _startState, self.RULE_expr)
-                        self.state = 285
-                        if not self.precpred(self._ctx, 3):
+                        self.state = 287
+                        if not self.precpred(self._ctx, 4):
                             from antlr4.error.Errors import FailedPredicateException
-                            raise FailedPredicateException(self, "self.precpred(self._ctx, 3)")
-                        self.state = 286
+                            raise FailedPredicateException(self, "self.precpred(self._ctx, 4)")
+                        self.state = 288
                         self.subsequence()
                         pass
 
+                    elif la_ == 5:
+                        localctx = DafnyParser.ExprContext(self, _parentctx, _parentState)
+                        self.pushNewRecursionContext(localctx, _startState, self.RULE_expr)
+                        self.state = 289
+                        if not self.precpred(self._ctx, 1):
+                            from antlr4.error.Errors import FailedPredicateException
+                            raise FailedPredicateException(self, "self.precpred(self._ctx, 1)")
+                        self.state = 290
+                        self.match(DafnyParser.DOT)
+                        self.state = 291
+                        _la = self._input.LA(1)
+                        if not((((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << DafnyParser.KEYS) | (1 << DafnyParser.VALUES) | (1 << DafnyParser.LENGTH))) != 0)):
+                            self._errHandler.recoverInline(self)
+                        else:
+                            self._errHandler.reportMatch(self)
+                            self.consume()
+                        pass
+
              
-                self.state = 291
+                self.state = 296
                 self._errHandler.sync(self)
                 _alt = self._interp.adaptivePredict(self._input,24,self._ctx)
 
@@ -1957,6 +2012,10 @@ class DafnyParser ( Parser ):
             return self.getTypedRuleContext(DafnyParser.StringLiteralContext,0)
 
 
+        def mapLiteral(self):
+            return self.getTypedRuleContext(DafnyParser.MapLiteralContext,0)
+
+
         def getRuleIndex(self):
             return DafnyParser.RULE_literal
 
@@ -1976,53 +2035,58 @@ class DafnyParser ( Parser ):
         localctx = DafnyParser.LiteralContext(self, self._ctx, self.state)
         self.enterRule(localctx, 42, self.RULE_literal)
         try:
-            self.state = 301
+            self.state = 307
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [DafnyParser.INT_LITERAL]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 292
+                self.state = 297
                 self.intLiteral()
                 pass
             elif token in [DafnyParser.CHAR_LITERAL]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 293
+                self.state = 298
                 self.charLiteral()
                 pass
             elif token in [DafnyParser.BOOL_LITERAL]:
                 self.enterOuterAlt(localctx, 3)
-                self.state = 294
+                self.state = 299
                 self.boolLiteral()
                 pass
             elif token in [DafnyParser.REAL_LITERAL]:
                 self.enterOuterAlt(localctx, 4)
-                self.state = 295
+                self.state = 300
                 self.realLiteral()
                 pass
             elif token in [DafnyParser.NEW]:
                 self.enterOuterAlt(localctx, 5)
-                self.state = 296
+                self.state = 301
                 self.arrayLiteral()
                 pass
             elif token in [DafnyParser.LCURLY]:
                 self.enterOuterAlt(localctx, 6)
-                self.state = 297
+                self.state = 302
                 self.setLiteral()
                 pass
             elif token in [DafnyParser.LSQUARE]:
                 self.enterOuterAlt(localctx, 7)
-                self.state = 298
+                self.state = 303
                 self.seqLiteral()
                 pass
             elif token in [DafnyParser.MULTISET]:
                 self.enterOuterAlt(localctx, 8)
-                self.state = 299
+                self.state = 304
                 self.multisetLiteral()
                 pass
             elif token in [DafnyParser.STRING_LITERAL]:
                 self.enterOuterAlt(localctx, 9)
-                self.state = 300
+                self.state = 305
                 self.stringLiteral()
+                pass
+            elif token in [DafnyParser.MAP]:
+                self.enterOuterAlt(localctx, 10)
+                self.state = 306
+                self.mapLiteral()
                 pass
             else:
                 raise NoViableAltException(self)
@@ -2064,7 +2128,7 @@ class DafnyParser ( Parser ):
         self.enterRule(localctx, 44, self.RULE_intLiteral)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 303
+            self.state = 309
             self.match(DafnyParser.INT_LITERAL)
         except RecognitionException as re:
             localctx.exception = re
@@ -2103,7 +2167,7 @@ class DafnyParser ( Parser ):
         self.enterRule(localctx, 46, self.RULE_charLiteral)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 305
+            self.state = 311
             self.match(DafnyParser.CHAR_LITERAL)
         except RecognitionException as re:
             localctx.exception = re
@@ -2142,7 +2206,7 @@ class DafnyParser ( Parser ):
         self.enterRule(localctx, 48, self.RULE_boolLiteral)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 307
+            self.state = 313
             self.match(DafnyParser.BOOL_LITERAL)
         except RecognitionException as re:
             localctx.exception = re
@@ -2181,7 +2245,7 @@ class DafnyParser ( Parser ):
         self.enterRule(localctx, 50, self.RULE_realLiteral)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 309
+            self.state = 315
             self.match(DafnyParser.REAL_LITERAL)
         except RecognitionException as re:
             localctx.exception = re
@@ -2241,25 +2305,25 @@ class DafnyParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 311
-            self.match(DafnyParser.NEW)
-            self.state = 312
-            self.dafnyType()
-            self.state = 313
-            self.match(DafnyParser.LSQUARE)
-            self.state = 314
-            self.match(DafnyParser.RSQUARE)
-            self.state = 315
-            self.match(DafnyParser.LSQUARE)
             self.state = 317
+            self.match(DafnyParser.NEW)
+            self.state = 318
+            self.dafnyType()
+            self.state = 319
+            self.match(DafnyParser.LSQUARE)
+            self.state = 320
+            self.match(DafnyParser.RSQUARE)
+            self.state = 321
+            self.match(DafnyParser.LSQUARE)
+            self.state = 323
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if (((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << DafnyParser.LBRACKET) | (1 << DafnyParser.MULTISET) | (1 << DafnyParser.LCURLY) | (1 << DafnyParser.BAR) | (1 << DafnyParser.MINUS) | (1 << DafnyParser.NOT) | (1 << DafnyParser.LSQUARE) | (1 << DafnyParser.IF) | (1 << DafnyParser.NEW) | (1 << DafnyParser.BOOL_LITERAL) | (1 << DafnyParser.PARAM_NAME) | (1 << DafnyParser.VARIABLE_NAME) | (1 << DafnyParser.METHOD_NAME) | (1 << DafnyParser.INT_LITERAL) | (1 << DafnyParser.REAL_LITERAL) | (1 << DafnyParser.CHAR_LITERAL) | (1 << DafnyParser.STRING_LITERAL))) != 0):
-                self.state = 316
+            if ((((_la - 3)) & ~0x3f) == 0 and ((1 << (_la - 3)) & ((1 << (DafnyParser.LBRACKET - 3)) | (1 << (DafnyParser.MULTISET - 3)) | (1 << (DafnyParser.MAP - 3)) | (1 << (DafnyParser.LCURLY - 3)) | (1 << (DafnyParser.BAR - 3)) | (1 << (DafnyParser.MINUS - 3)) | (1 << (DafnyParser.NOT - 3)) | (1 << (DafnyParser.LSQUARE - 3)) | (1 << (DafnyParser.IF - 3)) | (1 << (DafnyParser.NEW - 3)) | (1 << (DafnyParser.BOOL_LITERAL - 3)) | (1 << (DafnyParser.PARAM_NAME - 3)) | (1 << (DafnyParser.VARIABLE_NAME - 3)) | (1 << (DafnyParser.METHOD_NAME - 3)) | (1 << (DafnyParser.INT_LITERAL - 3)) | (1 << (DafnyParser.REAL_LITERAL - 3)) | (1 << (DafnyParser.CHAR_LITERAL - 3)) | (1 << (DafnyParser.STRING_LITERAL - 3)))) != 0):
+                self.state = 322
                 self.exprList()
 
 
-            self.state = 319
+            self.state = 325
             self.match(DafnyParser.RSQUARE)
         except RecognitionException as re:
             localctx.exception = re
@@ -2306,17 +2370,17 @@ class DafnyParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 321
+            self.state = 327
             self.match(DafnyParser.LCURLY)
-            self.state = 323
+            self.state = 329
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if (((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << DafnyParser.LBRACKET) | (1 << DafnyParser.MULTISET) | (1 << DafnyParser.LCURLY) | (1 << DafnyParser.BAR) | (1 << DafnyParser.MINUS) | (1 << DafnyParser.NOT) | (1 << DafnyParser.LSQUARE) | (1 << DafnyParser.IF) | (1 << DafnyParser.NEW) | (1 << DafnyParser.BOOL_LITERAL) | (1 << DafnyParser.PARAM_NAME) | (1 << DafnyParser.VARIABLE_NAME) | (1 << DafnyParser.METHOD_NAME) | (1 << DafnyParser.INT_LITERAL) | (1 << DafnyParser.REAL_LITERAL) | (1 << DafnyParser.CHAR_LITERAL) | (1 << DafnyParser.STRING_LITERAL))) != 0):
-                self.state = 322
+            if ((((_la - 3)) & ~0x3f) == 0 and ((1 << (_la - 3)) & ((1 << (DafnyParser.LBRACKET - 3)) | (1 << (DafnyParser.MULTISET - 3)) | (1 << (DafnyParser.MAP - 3)) | (1 << (DafnyParser.LCURLY - 3)) | (1 << (DafnyParser.BAR - 3)) | (1 << (DafnyParser.MINUS - 3)) | (1 << (DafnyParser.NOT - 3)) | (1 << (DafnyParser.LSQUARE - 3)) | (1 << (DafnyParser.IF - 3)) | (1 << (DafnyParser.NEW - 3)) | (1 << (DafnyParser.BOOL_LITERAL - 3)) | (1 << (DafnyParser.PARAM_NAME - 3)) | (1 << (DafnyParser.VARIABLE_NAME - 3)) | (1 << (DafnyParser.METHOD_NAME - 3)) | (1 << (DafnyParser.INT_LITERAL - 3)) | (1 << (DafnyParser.REAL_LITERAL - 3)) | (1 << (DafnyParser.CHAR_LITERAL - 3)) | (1 << (DafnyParser.STRING_LITERAL - 3)))) != 0):
+                self.state = 328
                 self.exprList()
 
 
-            self.state = 325
+            self.state = 331
             self.match(DafnyParser.RCURLY)
         except RecognitionException as re:
             localctx.exception = re
@@ -2363,17 +2427,17 @@ class DafnyParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 327
+            self.state = 333
             self.match(DafnyParser.LSQUARE)
-            self.state = 329
+            self.state = 335
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if (((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << DafnyParser.LBRACKET) | (1 << DafnyParser.MULTISET) | (1 << DafnyParser.LCURLY) | (1 << DafnyParser.BAR) | (1 << DafnyParser.MINUS) | (1 << DafnyParser.NOT) | (1 << DafnyParser.LSQUARE) | (1 << DafnyParser.IF) | (1 << DafnyParser.NEW) | (1 << DafnyParser.BOOL_LITERAL) | (1 << DafnyParser.PARAM_NAME) | (1 << DafnyParser.VARIABLE_NAME) | (1 << DafnyParser.METHOD_NAME) | (1 << DafnyParser.INT_LITERAL) | (1 << DafnyParser.REAL_LITERAL) | (1 << DafnyParser.CHAR_LITERAL) | (1 << DafnyParser.STRING_LITERAL))) != 0):
-                self.state = 328
+            if ((((_la - 3)) & ~0x3f) == 0 and ((1 << (_la - 3)) & ((1 << (DafnyParser.LBRACKET - 3)) | (1 << (DafnyParser.MULTISET - 3)) | (1 << (DafnyParser.MAP - 3)) | (1 << (DafnyParser.LCURLY - 3)) | (1 << (DafnyParser.BAR - 3)) | (1 << (DafnyParser.MINUS - 3)) | (1 << (DafnyParser.NOT - 3)) | (1 << (DafnyParser.LSQUARE - 3)) | (1 << (DafnyParser.IF - 3)) | (1 << (DafnyParser.NEW - 3)) | (1 << (DafnyParser.BOOL_LITERAL - 3)) | (1 << (DafnyParser.PARAM_NAME - 3)) | (1 << (DafnyParser.VARIABLE_NAME - 3)) | (1 << (DafnyParser.METHOD_NAME - 3)) | (1 << (DafnyParser.INT_LITERAL - 3)) | (1 << (DafnyParser.REAL_LITERAL - 3)) | (1 << (DafnyParser.CHAR_LITERAL - 3)) | (1 << (DafnyParser.STRING_LITERAL - 3)))) != 0):
+                self.state = 334
                 self.exprList()
 
 
-            self.state = 331
+            self.state = 337
             self.match(DafnyParser.RSQUARE)
         except RecognitionException as re:
             localctx.exception = re
@@ -2433,31 +2497,31 @@ class DafnyParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 333
+            self.state = 339
             self.match(DafnyParser.MULTISET)
-            self.state = 343
+            self.state = 349
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [DafnyParser.LBRACKET]:
-                self.state = 334
+                self.state = 340
                 self.match(DafnyParser.LBRACKET)
-                self.state = 335
+                self.state = 341
                 self.expr(0)
-                self.state = 336
+                self.state = 342
                 self.match(DafnyParser.RBRACKET)
                 pass
             elif token in [DafnyParser.LCURLY]:
-                self.state = 338
+                self.state = 344
                 self.match(DafnyParser.LCURLY)
-                self.state = 340
+                self.state = 346
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if (((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << DafnyParser.LBRACKET) | (1 << DafnyParser.MULTISET) | (1 << DafnyParser.LCURLY) | (1 << DafnyParser.BAR) | (1 << DafnyParser.MINUS) | (1 << DafnyParser.NOT) | (1 << DafnyParser.LSQUARE) | (1 << DafnyParser.IF) | (1 << DafnyParser.NEW) | (1 << DafnyParser.BOOL_LITERAL) | (1 << DafnyParser.PARAM_NAME) | (1 << DafnyParser.VARIABLE_NAME) | (1 << DafnyParser.METHOD_NAME) | (1 << DafnyParser.INT_LITERAL) | (1 << DafnyParser.REAL_LITERAL) | (1 << DafnyParser.CHAR_LITERAL) | (1 << DafnyParser.STRING_LITERAL))) != 0):
-                    self.state = 339
+                if ((((_la - 3)) & ~0x3f) == 0 and ((1 << (_la - 3)) & ((1 << (DafnyParser.LBRACKET - 3)) | (1 << (DafnyParser.MULTISET - 3)) | (1 << (DafnyParser.MAP - 3)) | (1 << (DafnyParser.LCURLY - 3)) | (1 << (DafnyParser.BAR - 3)) | (1 << (DafnyParser.MINUS - 3)) | (1 << (DafnyParser.NOT - 3)) | (1 << (DafnyParser.LSQUARE - 3)) | (1 << (DafnyParser.IF - 3)) | (1 << (DafnyParser.NEW - 3)) | (1 << (DafnyParser.BOOL_LITERAL - 3)) | (1 << (DafnyParser.PARAM_NAME - 3)) | (1 << (DafnyParser.VARIABLE_NAME - 3)) | (1 << (DafnyParser.METHOD_NAME - 3)) | (1 << (DafnyParser.INT_LITERAL - 3)) | (1 << (DafnyParser.REAL_LITERAL - 3)) | (1 << (DafnyParser.CHAR_LITERAL - 3)) | (1 << (DafnyParser.STRING_LITERAL - 3)))) != 0):
+                    self.state = 345
                     self.exprList()
 
 
-                self.state = 342
+                self.state = 348
                 self.match(DafnyParser.RCURLY)
                 pass
             else:
@@ -2500,8 +2564,115 @@ class DafnyParser ( Parser ):
         self.enterRule(localctx, 60, self.RULE_stringLiteral)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 345
+            self.state = 351
             self.match(DafnyParser.STRING_LITERAL)
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+    class MapLiteralContext(ParserRuleContext):
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def MAP(self):
+            return self.getToken(DafnyParser.MAP, 0)
+
+        def LSQUARE(self):
+            return self.getToken(DafnyParser.LSQUARE, 0)
+
+        def RSQUARE(self):
+            return self.getToken(DafnyParser.RSQUARE, 0)
+
+        def expr(self, i:int=None):
+            if i is None:
+                return self.getTypedRuleContexts(DafnyParser.ExprContext)
+            else:
+                return self.getTypedRuleContext(DafnyParser.ExprContext,i)
+
+
+        def COLON(self, i:int=None):
+            if i is None:
+                return self.getTokens(DafnyParser.COLON)
+            else:
+                return self.getToken(DafnyParser.COLON, i)
+
+        def EQUAL(self, i:int=None):
+            if i is None:
+                return self.getTokens(DafnyParser.EQUAL)
+            else:
+                return self.getToken(DafnyParser.EQUAL, i)
+
+        def COMMA(self, i:int=None):
+            if i is None:
+                return self.getTokens(DafnyParser.COMMA)
+            else:
+                return self.getToken(DafnyParser.COMMA, i)
+
+        def getRuleIndex(self):
+            return DafnyParser.RULE_mapLiteral
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterMapLiteral" ):
+                listener.enterMapLiteral(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitMapLiteral" ):
+                listener.exitMapLiteral(self)
+
+
+
+
+    def mapLiteral(self):
+
+        localctx = DafnyParser.MapLiteralContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 62, self.RULE_mapLiteral)
+        self._la = 0 # Token type
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 353
+            self.match(DafnyParser.MAP)
+            self.state = 354
+            self.match(DafnyParser.LSQUARE)
+            self.state = 370
+            self._errHandler.sync(self)
+            _la = self._input.LA(1)
+            if ((((_la - 3)) & ~0x3f) == 0 and ((1 << (_la - 3)) & ((1 << (DafnyParser.LBRACKET - 3)) | (1 << (DafnyParser.MULTISET - 3)) | (1 << (DafnyParser.MAP - 3)) | (1 << (DafnyParser.LCURLY - 3)) | (1 << (DafnyParser.BAR - 3)) | (1 << (DafnyParser.MINUS - 3)) | (1 << (DafnyParser.NOT - 3)) | (1 << (DafnyParser.LSQUARE - 3)) | (1 << (DafnyParser.IF - 3)) | (1 << (DafnyParser.NEW - 3)) | (1 << (DafnyParser.BOOL_LITERAL - 3)) | (1 << (DafnyParser.PARAM_NAME - 3)) | (1 << (DafnyParser.VARIABLE_NAME - 3)) | (1 << (DafnyParser.METHOD_NAME - 3)) | (1 << (DafnyParser.INT_LITERAL - 3)) | (1 << (DafnyParser.REAL_LITERAL - 3)) | (1 << (DafnyParser.CHAR_LITERAL - 3)) | (1 << (DafnyParser.STRING_LITERAL - 3)))) != 0):
+                self.state = 355
+                self.expr(0)
+                self.state = 356
+                self.match(DafnyParser.COLON)
+                self.state = 357
+                self.match(DafnyParser.EQUAL)
+                self.state = 358
+                self.expr(0)
+                self.state = 367
+                self._errHandler.sync(self)
+                _la = self._input.LA(1)
+                while _la==DafnyParser.COMMA:
+                    self.state = 359
+                    self.match(DafnyParser.COMMA)
+                    self.state = 360
+                    self.expr(0)
+                    self.state = 361
+                    self.match(DafnyParser.COLON)
+                    self.state = 362
+                    self.match(DafnyParser.EQUAL)
+                    self.state = 363
+                    self.expr(0)
+                    self.state = 369
+                    self._errHandler.sync(self)
+                    _la = self._input.LA(1)
+
+
+
+            self.state = 372
+            self.match(DafnyParser.RSQUARE)
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -2557,39 +2728,39 @@ class DafnyParser ( Parser ):
     def binaryOperator(self):
 
         localctx = DafnyParser.BinaryOperatorContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 62, self.RULE_binaryOperator)
+        self.enterRule(localctx, 64, self.RULE_binaryOperator)
         try:
-            self.state = 353
+            self.state = 380
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [DafnyParser.IFF]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 347
+                self.state = 374
                 self.op1()
                 pass
             elif token in [DafnyParser.IMPLIES, DafnyParser.REVERSE_IMPLIES]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 348
+                self.state = 375
                 self.op2()
                 pass
             elif token in [DafnyParser.CONJUNCT, DafnyParser.DISJUNCT]:
                 self.enterOuterAlt(localctx, 3)
-                self.state = 349
+                self.state = 376
                 self.op3()
                 pass
             elif token in [DafnyParser.LANGLE, DafnyParser.RANGLE, DafnyParser.EQUALITY, DafnyParser.DISEQUALITY, DafnyParser.LTE, DafnyParser.GTE, DafnyParser.IN, DafnyParser.NOT_IN, DafnyParser.DISJOINT]:
                 self.enterOuterAlt(localctx, 4)
-                self.state = 350
+                self.state = 377
                 self.op4()
                 pass
             elif token in [DafnyParser.MINUS, DafnyParser.PLUS]:
                 self.enterOuterAlt(localctx, 5)
-                self.state = 351
+                self.state = 378
                 self.op6()
                 pass
             elif token in [DafnyParser.MULT, DafnyParser.DIV, DafnyParser.MOD]:
                 self.enterOuterAlt(localctx, 6)
-                self.state = 352
+                self.state = 379
                 self.op7()
                 pass
             else:
@@ -2629,10 +2800,10 @@ class DafnyParser ( Parser ):
     def op1(self):
 
         localctx = DafnyParser.Op1Context(self, self._ctx, self.state)
-        self.enterRule(localctx, 64, self.RULE_op1)
+        self.enterRule(localctx, 66, self.RULE_op1)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 355
+            self.state = 382
             self.match(DafnyParser.IFF)
         except RecognitionException as re:
             localctx.exception = re
@@ -2671,11 +2842,11 @@ class DafnyParser ( Parser ):
     def op2(self):
 
         localctx = DafnyParser.Op2Context(self, self._ctx, self.state)
-        self.enterRule(localctx, 66, self.RULE_op2)
+        self.enterRule(localctx, 68, self.RULE_op2)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 357
+            self.state = 384
             _la = self._input.LA(1)
             if not(_la==DafnyParser.IMPLIES or _la==DafnyParser.REVERSE_IMPLIES):
                 self._errHandler.recoverInline(self)
@@ -2719,11 +2890,11 @@ class DafnyParser ( Parser ):
     def op3(self):
 
         localctx = DafnyParser.Op3Context(self, self._ctx, self.state)
-        self.enterRule(localctx, 68, self.RULE_op3)
+        self.enterRule(localctx, 70, self.RULE_op3)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 359
+            self.state = 386
             _la = self._input.LA(1)
             if not(_la==DafnyParser.CONJUNCT or _la==DafnyParser.DISJUNCT):
                 self._errHandler.recoverInline(self)
@@ -2788,11 +2959,11 @@ class DafnyParser ( Parser ):
     def op4(self):
 
         localctx = DafnyParser.Op4Context(self, self._ctx, self.state)
-        self.enterRule(localctx, 70, self.RULE_op4)
+        self.enterRule(localctx, 72, self.RULE_op4)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 361
+            self.state = 388
             _la = self._input.LA(1)
             if not((((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << DafnyParser.LANGLE) | (1 << DafnyParser.RANGLE) | (1 << DafnyParser.EQUALITY) | (1 << DafnyParser.DISEQUALITY) | (1 << DafnyParser.LTE) | (1 << DafnyParser.GTE) | (1 << DafnyParser.IN) | (1 << DafnyParser.NOT_IN) | (1 << DafnyParser.DISJOINT))) != 0)):
                 self._errHandler.recoverInline(self)
@@ -2836,11 +3007,11 @@ class DafnyParser ( Parser ):
     def op6(self):
 
         localctx = DafnyParser.Op6Context(self, self._ctx, self.state)
-        self.enterRule(localctx, 72, self.RULE_op6)
+        self.enterRule(localctx, 74, self.RULE_op6)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 363
+            self.state = 390
             _la = self._input.LA(1)
             if not(_la==DafnyParser.MINUS or _la==DafnyParser.PLUS):
                 self._errHandler.recoverInline(self)
@@ -2887,11 +3058,11 @@ class DafnyParser ( Parser ):
     def op7(self):
 
         localctx = DafnyParser.Op7Context(self, self._ctx, self.state)
-        self.enterRule(localctx, 74, self.RULE_op7)
+        self.enterRule(localctx, 76, self.RULE_op7)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 365
+            self.state = 392
             _la = self._input.LA(1)
             if not((((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << DafnyParser.MULT) | (1 << DafnyParser.DIV) | (1 << DafnyParser.MOD))) != 0)):
                 self._errHandler.recoverInline(self)
@@ -2935,11 +3106,11 @@ class DafnyParser ( Parser ):
     def unaryOperator(self):
 
         localctx = DafnyParser.UnaryOperatorContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 76, self.RULE_unaryOperator)
+        self.enterRule(localctx, 78, self.RULE_unaryOperator)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 367
+            self.state = 394
             _la = self._input.LA(1)
             if not(_la==DafnyParser.MINUS or _la==DafnyParser.NOT):
                 self._errHandler.recoverInline(self)
@@ -2990,23 +3161,23 @@ class DafnyParser ( Parser ):
     def callExpr(self):
 
         localctx = DafnyParser.CallExprContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 78, self.RULE_callExpr)
+        self.enterRule(localctx, 80, self.RULE_callExpr)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 369
+            self.state = 396
             self.match(DafnyParser.METHOD_NAME)
-            self.state = 370
+            self.state = 397
             self.match(DafnyParser.LBRACKET)
-            self.state = 372
+            self.state = 399
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if (((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << DafnyParser.LBRACKET) | (1 << DafnyParser.MULTISET) | (1 << DafnyParser.LCURLY) | (1 << DafnyParser.BAR) | (1 << DafnyParser.MINUS) | (1 << DafnyParser.NOT) | (1 << DafnyParser.LSQUARE) | (1 << DafnyParser.IF) | (1 << DafnyParser.NEW) | (1 << DafnyParser.BOOL_LITERAL) | (1 << DafnyParser.PARAM_NAME) | (1 << DafnyParser.VARIABLE_NAME) | (1 << DafnyParser.METHOD_NAME) | (1 << DafnyParser.INT_LITERAL) | (1 << DafnyParser.REAL_LITERAL) | (1 << DafnyParser.CHAR_LITERAL) | (1 << DafnyParser.STRING_LITERAL))) != 0):
-                self.state = 371
+            if ((((_la - 3)) & ~0x3f) == 0 and ((1 << (_la - 3)) & ((1 << (DafnyParser.LBRACKET - 3)) | (1 << (DafnyParser.MULTISET - 3)) | (1 << (DafnyParser.MAP - 3)) | (1 << (DafnyParser.LCURLY - 3)) | (1 << (DafnyParser.BAR - 3)) | (1 << (DafnyParser.MINUS - 3)) | (1 << (DafnyParser.NOT - 3)) | (1 << (DafnyParser.LSQUARE - 3)) | (1 << (DafnyParser.IF - 3)) | (1 << (DafnyParser.NEW - 3)) | (1 << (DafnyParser.BOOL_LITERAL - 3)) | (1 << (DafnyParser.PARAM_NAME - 3)) | (1 << (DafnyParser.VARIABLE_NAME - 3)) | (1 << (DafnyParser.METHOD_NAME - 3)) | (1 << (DafnyParser.INT_LITERAL - 3)) | (1 << (DafnyParser.REAL_LITERAL - 3)) | (1 << (DafnyParser.CHAR_LITERAL - 3)) | (1 << (DafnyParser.STRING_LITERAL - 3)))) != 0):
+                self.state = 398
                 self.exprList()
 
 
-            self.state = 374
+            self.state = 401
             self.match(DafnyParser.RBRACKET)
         except RecognitionException as re:
             localctx.exception = re
@@ -3055,20 +3226,20 @@ class DafnyParser ( Parser ):
     def ifElseExpr(self):
 
         localctx = DafnyParser.IfElseExprContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 80, self.RULE_ifElseExpr)
+        self.enterRule(localctx, 82, self.RULE_ifElseExpr)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 376
+            self.state = 403
             self.match(DafnyParser.IF)
-            self.state = 377
+            self.state = 404
             self.expr(0)
-            self.state = 378
+            self.state = 405
             self.match(DafnyParser.THEN)
-            self.state = 379
+            self.state = 406
             self.expr(0)
-            self.state = 380
+            self.state = 407
             self.match(DafnyParser.ELSE)
-            self.state = 381
+            self.state = 408
             self.expr(0)
         except RecognitionException as re:
             localctx.exception = re
@@ -3111,14 +3282,14 @@ class DafnyParser ( Parser ):
     def indexExpr(self):
 
         localctx = DafnyParser.IndexExprContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 82, self.RULE_indexExpr)
+        self.enterRule(localctx, 84, self.RULE_indexExpr)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 383
+            self.state = 410
             self.match(DafnyParser.LSQUARE)
-            self.state = 384
+            self.state = 411
             self.expr(0)
-            self.state = 385
+            self.state = 412
             self.match(DafnyParser.RSQUARE)
         except RecognitionException as re:
             localctx.exception = re
@@ -3128,7 +3299,7 @@ class DafnyParser ( Parser ):
             self.exitRule()
         return localctx
 
-    class ReassignSeqContext(ParserRuleContext):
+    class UpdateContext(ParserRuleContext):
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -3154,36 +3325,36 @@ class DafnyParser ( Parser ):
             return self.getToken(DafnyParser.RSQUARE, 0)
 
         def getRuleIndex(self):
-            return DafnyParser.RULE_reassignSeq
+            return DafnyParser.RULE_update
 
         def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterReassignSeq" ):
-                listener.enterReassignSeq(self)
+            if hasattr( listener, "enterUpdate" ):
+                listener.enterUpdate(self)
 
         def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitReassignSeq" ):
-                listener.exitReassignSeq(self)
+            if hasattr( listener, "exitUpdate" ):
+                listener.exitUpdate(self)
 
 
 
 
-    def reassignSeq(self):
+    def update(self):
 
-        localctx = DafnyParser.ReassignSeqContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 84, self.RULE_reassignSeq)
+        localctx = DafnyParser.UpdateContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 86, self.RULE_update)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 387
+            self.state = 414
             self.match(DafnyParser.LSQUARE)
-            self.state = 388
+            self.state = 415
             self.expr(0)
-            self.state = 389
+            self.state = 416
             self.match(DafnyParser.COLON)
-            self.state = 390
+            self.state = 417
             self.match(DafnyParser.EQUAL)
-            self.state = 391
+            self.state = 418
             self.expr(0)
-            self.state = 392
+            self.state = 419
             self.match(DafnyParser.RSQUARE)
         except RecognitionException as re:
             localctx.exception = re
@@ -3232,31 +3403,31 @@ class DafnyParser ( Parser ):
     def subsequence(self):
 
         localctx = DafnyParser.SubsequenceContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 86, self.RULE_subsequence)
+        self.enterRule(localctx, 88, self.RULE_subsequence)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 394
+            self.state = 421
             self.match(DafnyParser.LSQUARE)
-            self.state = 396
+            self.state = 423
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if (((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << DafnyParser.LBRACKET) | (1 << DafnyParser.MULTISET) | (1 << DafnyParser.LCURLY) | (1 << DafnyParser.BAR) | (1 << DafnyParser.MINUS) | (1 << DafnyParser.NOT) | (1 << DafnyParser.LSQUARE) | (1 << DafnyParser.IF) | (1 << DafnyParser.NEW) | (1 << DafnyParser.BOOL_LITERAL) | (1 << DafnyParser.PARAM_NAME) | (1 << DafnyParser.VARIABLE_NAME) | (1 << DafnyParser.METHOD_NAME) | (1 << DafnyParser.INT_LITERAL) | (1 << DafnyParser.REAL_LITERAL) | (1 << DafnyParser.CHAR_LITERAL) | (1 << DafnyParser.STRING_LITERAL))) != 0):
-                self.state = 395
+            if ((((_la - 3)) & ~0x3f) == 0 and ((1 << (_la - 3)) & ((1 << (DafnyParser.LBRACKET - 3)) | (1 << (DafnyParser.MULTISET - 3)) | (1 << (DafnyParser.MAP - 3)) | (1 << (DafnyParser.LCURLY - 3)) | (1 << (DafnyParser.BAR - 3)) | (1 << (DafnyParser.MINUS - 3)) | (1 << (DafnyParser.NOT - 3)) | (1 << (DafnyParser.LSQUARE - 3)) | (1 << (DafnyParser.IF - 3)) | (1 << (DafnyParser.NEW - 3)) | (1 << (DafnyParser.BOOL_LITERAL - 3)) | (1 << (DafnyParser.PARAM_NAME - 3)) | (1 << (DafnyParser.VARIABLE_NAME - 3)) | (1 << (DafnyParser.METHOD_NAME - 3)) | (1 << (DafnyParser.INT_LITERAL - 3)) | (1 << (DafnyParser.REAL_LITERAL - 3)) | (1 << (DafnyParser.CHAR_LITERAL - 3)) | (1 << (DafnyParser.STRING_LITERAL - 3)))) != 0):
+                self.state = 422
                 self.expr(0)
 
 
-            self.state = 398
+            self.state = 425
             self.match(DafnyParser.SPREAD)
-            self.state = 400
+            self.state = 427
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            if (((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << DafnyParser.LBRACKET) | (1 << DafnyParser.MULTISET) | (1 << DafnyParser.LCURLY) | (1 << DafnyParser.BAR) | (1 << DafnyParser.MINUS) | (1 << DafnyParser.NOT) | (1 << DafnyParser.LSQUARE) | (1 << DafnyParser.IF) | (1 << DafnyParser.NEW) | (1 << DafnyParser.BOOL_LITERAL) | (1 << DafnyParser.PARAM_NAME) | (1 << DafnyParser.VARIABLE_NAME) | (1 << DafnyParser.METHOD_NAME) | (1 << DafnyParser.INT_LITERAL) | (1 << DafnyParser.REAL_LITERAL) | (1 << DafnyParser.CHAR_LITERAL) | (1 << DafnyParser.STRING_LITERAL))) != 0):
-                self.state = 399
+            if ((((_la - 3)) & ~0x3f) == 0 and ((1 << (_la - 3)) & ((1 << (DafnyParser.LBRACKET - 3)) | (1 << (DafnyParser.MULTISET - 3)) | (1 << (DafnyParser.MAP - 3)) | (1 << (DafnyParser.LCURLY - 3)) | (1 << (DafnyParser.BAR - 3)) | (1 << (DafnyParser.MINUS - 3)) | (1 << (DafnyParser.NOT - 3)) | (1 << (DafnyParser.LSQUARE - 3)) | (1 << (DafnyParser.IF - 3)) | (1 << (DafnyParser.NEW - 3)) | (1 << (DafnyParser.BOOL_LITERAL - 3)) | (1 << (DafnyParser.PARAM_NAME - 3)) | (1 << (DafnyParser.VARIABLE_NAME - 3)) | (1 << (DafnyParser.METHOD_NAME - 3)) | (1 << (DafnyParser.INT_LITERAL - 3)) | (1 << (DafnyParser.REAL_LITERAL - 3)) | (1 << (DafnyParser.CHAR_LITERAL - 3)) | (1 << (DafnyParser.STRING_LITERAL - 3)))) != 0):
+                self.state = 426
                 self.expr(0)
 
 
-            self.state = 402
+            self.state = 429
             self.match(DafnyParser.RSQUARE)
         except RecognitionException as re:
             localctx.exception = re
@@ -3295,11 +3466,11 @@ class DafnyParser ( Parser ):
     def variable(self):
 
         localctx = DafnyParser.VariableContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 88, self.RULE_variable)
+        self.enterRule(localctx, 90, self.RULE_variable)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 404
+            self.state = 431
             _la = self._input.LA(1)
             if not(_la==DafnyParser.PARAM_NAME or _la==DafnyParser.VARIABLE_NAME):
                 self._errHandler.recoverInline(self)
@@ -3328,19 +3499,23 @@ class DafnyParser ( Parser ):
 
     def expr_sempred(self, localctx:ExprContext, predIndex:int):
             if predIndex == 0:
-                return self.precpred(self._ctx, 10)
+                return self.precpred(self._ctx, 11)
          
 
             if predIndex == 1:
-                return self.precpred(self._ctx, 5)
+                return self.precpred(self._ctx, 6)
          
 
             if predIndex == 2:
-                return self.precpred(self._ctx, 4)
+                return self.precpred(self._ctx, 5)
          
 
             if predIndex == 3:
-                return self.precpred(self._ctx, 3)
+                return self.precpred(self._ctx, 4)
+         
+
+            if predIndex == 4:
+                return self.precpred(self._ctx, 1)
          
 
 
