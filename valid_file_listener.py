@@ -129,6 +129,11 @@ class DafnyValidatorListener(DafnyListener):
             collection_type.set_name(str(type))
             return collection_type
 
+        type = ctx.MAP()
+        if type is not None:
+            collection_type.set_name(str(type))
+            return collection_type
+
 
     # Enter a parse tree produced by DafnyParser#stat.
     def enterStat(self, ctx:DafnyParser.StatContext):
