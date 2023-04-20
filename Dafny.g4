@@ -184,7 +184,7 @@ ifElseStat: IF expr LCURLY stat* RCURLY (ELSE LCURLY stat* RCURLY)?;
 assignStat: VAR? variableList COLON EQUAL exprList SEMICOLON;
 
 variableList: variableArg (COMMA variableArg)*;
-variableArg: variable COLON dafnyType;
+variableArg: variable (LSQUARE expr RSQUARE)? (COLON dafnyType)?;
 
 exprList: expr (COMMA expr)*;
 
@@ -216,11 +216,10 @@ intLiteral: INT_LITERAL;
 charLiteral: CHAR_LITERAL;
 boolLiteral: BOOL_LITERAL;
 realLiteral: REAL_LITERAL;
-arrayLiteral: NEW dafnyType LSQUARE RSQUARE LSQUARE exprList? RSQUARE;
+arrayLiteral: NEW dafnyType LSQUARE expr? RSQUARE (LSQUARE exprList? RSQUARE)?;
 setLiteral: LCURLY exprList? RCURLY;
 seqLiteral: LSQUARE exprList? RSQUARE;
-multisetLiteral: MULTISET (LBRACKET expr RBRACKET |
-	LCURLY exprList? RCURLY);
+multisetLiteral: MULTISET (LBRACKET expr RBRACKET | LCURLY exprList? RCURLY);
 stringLiteral: STRING_LITERAL;
 mapLiteral: MAP LSQUARE (expr COLON EQUAL expr (COMMA expr COLON EQUAL expr)*)? RSQUARE;
 
