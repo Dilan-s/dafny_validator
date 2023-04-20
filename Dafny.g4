@@ -184,7 +184,7 @@ ifElseStat: IF expr LCURLY stat* RCURLY (ELSE LCURLY stat* RCURLY)?;
 assignStat: VAR? variableList COLON EQUAL exprList SEMICOLON;
 
 variableList: variableArg (COMMA variableArg)*;
-variableArg: variable (LSQUARE expr RSQUARE)? (COLON dafnyType)?;
+variableArg: variable (COLON dafnyType)?;
 
 exprList: expr (COMMA expr)*;
 
@@ -265,5 +265,5 @@ update: LSQUARE expr COLON EQUAL expr RSQUARE;
 
 subsequence: LSQUARE expr? SPREAD expr? RSQUARE;
 
-variable: PARAM_NAME |
-  VARIABLE_NAME;
+variable: (PARAM_NAME |
+  VARIABLE_NAME) (LSQUARE expr RSQUARE)?;

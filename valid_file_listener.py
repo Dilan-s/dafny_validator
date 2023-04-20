@@ -160,7 +160,12 @@ class DafnyValidatorListener(DafnyListener):
                 if not self.varType[expr].isPrintable():
                     print("Attempt to print invalid variable type")
                     exit(1)
-
+            if '[' in expr:
+                tokens = expr.split('[')
+                if tokens[0] in self.varType:
+                    if not self.varType[tokens[0]].get_inner_type().isPrintable():
+                        print("Attempt to print invalid variable type")
+                        exit(1)
 
     # Enter a parse tree produced by DafnyParser#ifElseStat.
     def enterIfElseStat(self, ctx:DafnyParser.IfElseStatContext):
@@ -204,16 +209,19 @@ class DafnyValidatorListener(DafnyListener):
         if ctx.dafnyType() is not None:
             dafny_type = self.enterDafnyType(ctx.dafnyType())
             self.varType[variable_name] = dafny_type
-        elif ctx.expr() is not None:
-            type = self.varType[variable_name]
-            self.varType[variable_name + str(ctx.expr())] = type.get_inner_type()
 
     # Enter a parse tree produced by DafnyParser#variable.
     def enterVariable(self, ctx:DafnyParser.VariableContext) -> str:
+        res = ""
         name = ctx.PARAM_NAME()
         if name is not None:
-            return str(name)
+            res = str(name)
 
         name = ctx.VARIABLE_NAME()
         if name is not None:
-            return str(name)
+            res = str(name)
+
+        if ctx.expr() is not None:
+            res = res + str(ctx.expr())
+
+        return res
