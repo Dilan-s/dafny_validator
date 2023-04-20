@@ -22,6 +22,9 @@ class CollectionType(Type):
     def set_name(self, name: str):
         self.name = name
 
+    def get_inner_type(self):
+        return self.inner_types[0]
+
     def add_inner_type(self, type: Type):
         self.inner_types.append(type)
 

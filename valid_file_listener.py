@@ -200,8 +200,13 @@ class DafnyValidatorListener(DafnyListener):
     # Enter a parse tree produced by DafnyParser#variableArg.
     def enterVariableArg(self, ctx: DafnyParser.VariableArgContext):
         variable_name = self.enterVariable(ctx.variable())
-        dafny_type = self.enterDafnyType(ctx.dafnyType())
-        self.varType[variable_name] = dafny_type
+
+        if ctx.dafnyType() is not None:
+            dafny_type = self.enterDafnyType(ctx.dafnyType())
+            self.varType[variable_name] = dafny_type
+        elif ctx.expr() is not None:
+            type = self.varType[variable_name]
+            self.varType[variable_name + str(ctx.expr())] = type.get_inner_type()
 
     # Enter a parse tree produced by DafnyParser#variable.
     def enterVariable(self, ctx:DafnyParser.VariableContext) -> str:
