@@ -296,6 +296,15 @@ class DafnyListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by DafnyParser#tupleLiteral.
+    def enterTupleLiteral(self, ctx:DafnyParser.TupleLiteralContext):
+        pass
+
+    # Exit a parse tree produced by DafnyParser#tupleLiteral.
+    def exitTupleLiteral(self, ctx:DafnyParser.TupleLiteralContext):
+        pass
+
+
     # Enter a parse tree produced by DafnyParser#binaryOperator.
     def enterBinaryOperator(self, ctx:DafnyParser.BinaryOperatorContext):
         pass
